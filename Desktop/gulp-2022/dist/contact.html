@@ -4,130 +4,198 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/style.min.css?_v=20220725183804">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css?_v=20220805153204"
+  />
+    <link rel="stylesheet" href="css/style.min.css?_v=20220805153204">
     <title>Главная</title>
 </head>
-<body class="contact__page">
-    <header>
+<body class="contact">
+    <div class="contact__wrapper">
+          <header class="header">
+
    <div class="container">
-      <div class="header__wrapper">
+       <div class="header__wrapper">
          <div class="header__top">
-         <div class="header__left">
-            <div class="logo">
-              
-               <svg width="183" height="67" viewBox="0 0 183 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M33.5 67C52.0015 67 67 52.0015 67 33.5C67 14.9985 52.0015 0 33.5 0C14.9985 0 0 14.9985 0 33.5C0 52.0015 14.9985 67 33.5 67Z" fill="#FF0000"/>
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.7649 36.0631L38.2397 49.6662L26.7373 49.7423L20.6941 32.7893H24.8583C26.001 32.7893 27.169 32.3832 28.337 31.5457C29.505 30.7082 30.2668 29.3124 30.5968 27.3328C30.7492 26.6984 30.8254 26.0639 30.8254 25.5056C30.8254 22.79 29.4542 21.4196 26.7373 21.4196H22.6747L17.6979 49.6662H6.98267L12.9497 15.7347H31.5109C34.5579 15.7347 37.0209 16.3692 38.8237 17.6635C40.6519 18.9578 41.566 20.9881 41.566 23.8052C41.566 24.5666 41.4898 25.4041 41.3375 26.3431C40.9566 28.6525 40.271 30.5052 39.2808 31.8756C38.2905 33.2461 37.2748 34.2105 36.2084 34.7688C35.1419 35.3525 34.1517 35.6825 33.2376 35.8347C32.3489 35.9616 31.841 36.0378 31.7649 36.0631ZM46.949 39.7685H61.4222C61.5238 39.7685 61.7269 38.9817 62.0316 37.4336C62.3617 35.8855 62.5141 34.3628 62.5141 32.84C62.5141 30.4544 62.0316 28.6779 61.0667 27.5359C60.0765 26.3685 58.8831 25.6325 57.4865 25.2772C56.09 24.9472 54.211 24.7696 51.7988 24.7696C44.0798 24.9472 39.4839 29.3631 38.0366 38.0427C37.8334 39.1086 37.7319 40.276 37.7319 41.5196C37.7319 47.0775 40.6265 50.0215 46.4158 50.326C46.5935 50.326 46.8728 50.326 47.2283 50.3514C47.5838 50.3768 47.8885 50.3768 48.0916 50.3768C50.58 50.3768 52.7383 50.1484 54.5919 49.7169C56.4455 49.2855 57.7151 48.9302 58.4514 48.6256L60.5335 42.7885C59.8733 43.22 58.6799 43.7529 56.9787 44.4128C55.2775 45.0472 53.2969 45.4279 50.9863 45.5041C48.117 45.5041 46.6951 44.159 46.6951 41.4942C46.7205 40.3522 46.7967 39.7685 46.949 39.7685ZM52.9922 30.0738C55.2775 30.2514 56.4201 31.4188 56.4201 33.576C56.3439 34.8703 56.217 35.5302 56.0392 35.5302H47.6854C47.7362 34.6166 48.117 33.4745 48.828 32.1294C49.5644 30.759 50.9355 30.0738 52.9922 30.0738Z" fill="white"/>
-                  <path d="M79.3995 32.2059C79.3995 32.7642 79.7549 33.1703 80.4405 33.3733C81.1261 33.5764 82.3449 33.8048 84.0461 34.0078C85.7474 34.2108 87.0677 34.4646 87.9564 34.7184C90.9272 35.632 92.4254 37.4086 92.4254 40.0733C92.4254 40.3525 92.4 40.7839 92.3238 41.3423C91.562 47.1033 87.6263 50.1487 80.4659 50.4786C80.085 50.504 79.5264 50.5294 78.7901 50.5294C76.3779 50.5294 74.3211 50.3264 72.6199 49.8949C70.8933 49.4889 70.03 49.1843 70.03 49.0574V42.8904C70.5378 43.3472 71.4519 43.9055 72.823 44.6161C74.1688 45.3014 75.8446 45.682 77.8506 45.7328C79.9835 45.7328 81.5578 45.5044 82.548 45.0476C83.5637 44.5908 84.1477 43.8294 84.3 42.7381C84.3 41.7737 83.9446 41.0631 83.2336 40.657C82.5226 40.251 81.6085 39.9464 80.4913 39.8195C79.3741 39.6926 78.0283 39.515 76.4794 39.3373C74.8798 39.0582 73.6356 38.5506 72.7469 37.8654C71.8582 37.1801 71.4265 36.0889 71.4265 34.5661C71.4265 33.7033 71.6042 32.6627 71.9597 31.4192C72.6199 29.2873 74.245 27.5362 76.8349 26.1911C78.333 25.4551 80.3136 25.0237 82.8273 24.8714C83.2844 24.8461 83.9192 24.8207 84.7825 24.8207C86.9916 24.8207 88.7944 24.973 90.1655 25.3029C91.5366 25.6328 92.4761 25.8866 92.9586 26.0896L93.4918 31.0131C93.4918 31.0131 93.0601 30.8608 92.2476 30.5563C91.4351 30.2517 90.4194 29.9726 89.2006 29.7188C87.9818 29.465 86.5599 29.3381 84.9348 29.3381C81.4054 29.3381 79.5518 30.3025 79.3995 32.2059Z" fill="black"/>
-                  <path d="M101.262 29.4395H94.7613L95.4976 25.3535H116.217L115.481 29.4395H108.981L105.4 49.7933H97.6813L101.262 29.4395Z" fill="black"/>
-                  <path d="M115.455 46.1895L113.45 49.7933H107.914L121.346 25.3535H128.329L133.306 49.7933H125.13L124.393 46.1895H115.455ZM123.479 41.9259L122.007 34.4137L117.817 41.9259H123.479Z" fill="black"/>
-                  <path d="M152.416 39.9972L157.088 49.7934L148.785 49.8442L144.418 37.6116H147.414C148.252 37.6116 149.09 37.307 149.928 36.7233C150.766 36.1142 151.324 35.1245 151.578 33.6779C151.68 33.1957 151.73 32.7642 151.73 32.3582C151.73 30.404 150.766 29.4142 148.785 29.4142H145.865L142.285 49.768H134.566L138.882 25.3282H152.264C154.473 25.3282 156.225 25.7851 157.545 26.7241C158.865 27.6631 159.526 29.1351 159.526 31.1654C159.526 31.6983 159.475 32.3074 159.373 32.9926C159.094 34.6676 158.586 35.9873 157.901 36.9771C157.215 37.9669 156.453 38.6521 155.666 39.0582C154.904 39.4642 154.193 39.718 153.533 39.8195C152.848 39.921 152.492 39.9718 152.416 39.9972Z" fill="black"/>
-                  <path d="M167.905 29.4395H161.405L162.141 25.3535H182.861L182.124 29.4395H175.624L172.044 49.7933H164.325L167.905 29.4395Z" fill="black"/>
-                  </svg>
-              
+            <div class="header__left">
+         <div class="logo">LOGO</div>
+         <nav>
+            <div class="bg-black">
+                <div class="overlay">
+                 <div class="menu__pagination">
+                  <picture><source srcset="../img/burger-close.webp" type="image/webp"><img  class="burger-btn1"src="../img/burger-close.png" alt=""></picture>
+                  <picture><source srcset="../img/menu-pagination.webp" type="image/webp"><img  class="burger-btn"src="../img/menu-pagination.png" alt=""></picture>
+            <div class="menu__title">Menu</div>
             </div>
-         </div>
-         <div class="header__right">
-            <div class="header__text">Restart — Ваша зона автокомфорту</div>
-            <div class="header__nav">
-               <div class="header__img">
-                  <picture><source srcset="../img/burger.webp" type="image/webp"><img class="burger "src="../img/burger.png" alt=""></picture>
-               </div>
-              
             </div>
-         </div>
-      </div>
-         <nav class="header__list">
-            
+            </div>
+           
+          
+         
             <ul class="list">
-               <picture><source srcset="../img/close.webp" type="image/webp"><img  class="close "src="../img/close.png" alt=""></picture>
-               <li class="list__item"> <a  class="list__link"href="/about.html">Про компанію</a></li>
-               <li class="list__item"><a  class="list__link"href="/shop.html">Мережа СТЦ</a></li>
-               <li class="list__item"><a class="list__link" href="#">Інтернет-магазин</a></li>
-               <li class="list__item"><a class="list__link" href="/plus.html">Готові рішення для СТО</a></li>
-               <li class="list__item"><a  class="list__link"href="/contact.html">Контакти</a></li>
+               <li class="list__item"><a  class="list__link" href="../home.html">Home</a></li>
+               <li class="list__item"><a  class="list__link" href="../projects.html">Projects</a></li>
+               <li class="list__item2 list__item"><a  class="list__link" href="../about.html">About us</a></li>
+               <li class="list__item3 list__item"><a  class="list__link" href="../news.html">Blog</a></li>
+               <li class="list__item"><a  class="list__link" href="../contact.html">Contacts</a></li>
             </ul>
          </nav>
       </div>
-   </div>
-
-</header>
-    <main>
-        <div class="contact">
-
-        
-                <div class="container"> 
-                       <div class="contact__inner">
-                 <div class="contact__left">
-                    <div class="container">
-                       
-                                    <div class="contact__title">Контактна інформація</div>
-                                     <div class="contact__left-wrapper">
-                    <div class="contact__adress">Адреса офісу: <br>Івана Підкови, 17г Рівне, Рівненська область, 33000  <br><span><a href="#">адреси сервісно-технічних центрів</a></span></div>
-                    <ul class="contact__list1">
-                        <li>0362 46 0443</li>
-                        <li>0800 21 4343 <span>(безкоштовно)</span></li>
-                        <li>+38 067 362 4343 <span>(viber)</span></li>
-                        <li>067 208 34 70 <br><span>(Регіональний менеджер)</span></li>
-                    </ul>
-                    <ul class="contact__list2">
-                        <li>пошта:<span><a href="">info@restart.ua</a></span></li>
-                        <li>facebook:<span><a href=""> restart.ua</a></span></li>
-                    </ul>
-                 
-                
-                 <div class="contact__week">
-                    Розклад роботи офісу:
-                    Пн-Пт – з 9:00 до 18:00
-                    Субота – з 9:00 до 14:00
-                    Неділя – вихідний день  
-                 </div>
-                        </div>
-            </div></div>
-                 <div class="contact__right">
-                      
-                            <div class="cart" style="height: 580px;  overflow: hidden; position: relative; ">   <iframe  style=" position: relative; top: -48px;border:none;"src="https://www.google.com/maps/d/u/0/embed?mid=1PCNl972RKWHWvc8nKZilLMl2rbBPFis&ehbc=2E312F" width="1000" height="570"></iframe></div>
-                            
-                            <picture><source srcset="./img/contact-item.webp" type="image/webp"><img src="./img/contact-item.png" alt=""></picture>
-                          
-                            
-                        </div>
-                 </div>
+      <div class="header__right">
+         <div class="laungrech">En</div>
+         <button class="header__right-btn">Send Request</button>
+      </div>
+         </div>
+      <div class="header__bottom">
+         <div class="header__title">
+            <h1>Thoughtful making of space</h1>
+         </div>
+         <div class="header__block">
+            <div class="header__subtitle">
+               <span class="line"></span>
+               <p>Discover more</p>
+               <span></span>
             </div>
-           </div>
-        </div>
-    </main>
-    <footer class="footer">
-   
-        <div class="footer__wrapper">
-             <div class="container">
-               <div class="footer__text">
-            <div class="footer__title" >
-               
+            <div class="header__pagination">
+               <picture><source srcset="../img/left.webp" type="image/webp"><img class=" swiper-button-prev" src="../img/left.png" alt=""></picture>
+               <div class="pagination__number">02</div>
+               <span></span>
+             
+               <div class="pagination__number">04</div>
+                 <picture><source srcset="../img/right.webp" type="image/webp"><img class="swiper-button-next" src="../img/right.png" alt=""></picture>
+            </div>
+         </div>
            
-               <h1 > У нас представлений широкий асортимент запчастин та комплектуючих для вантажних та легкових авто,
-                сільськогосподарських
-                машин, водомоторної техніки, а також мотоциклів та промислового сектору ринку.
-            </h1>
+      </div>
+      <div class="header__info">
+           <div class="social">
+               <div class="social__item">
+                  <a href="" class="social__link">Fb</a>
+               </div>
+               <div class="social__item">
+                  <a href="" class="social__link">In</a>
+               </div>
+               <div class="social__item">
+                  <a href="" class="social__link">Be</a>
+               </div>
             </div>
-          </div>
-            <nav class="header__list">
-                <ul class="list">
-                   <li class="list__item"> <a  class="list__link"href="../about.html">Про компанію</a></li>
-                   <li class="list__item"><a  class="list__link"href="#">Мережа СТЦ</a></li>
-                   <li class="list__item"><a class="list__link" href="#">Інтернет-магазин</a></li>
-                   <li class="list__item"><a class="list__link" href="#">Готові рішення для СТО</a></li>
-                   <li class="list__item"><a  class="list__link"href="#">Контакти</a></li>
-                </ul>
-             </nav>
-            
-             <p class="footer__subtitle">Мережа СТЦ Restart надає послуги діагностики, професійного ремонту стартера, генератора у Рівном, Луцьку. Заміна бендиксів, втягуючих реле, статорів, роторів, втулок, щіток, підшипників, регуляторів, діодних мостів. Ремонт, заправка кондиціонерів. Продаж стартерів, генераторів. Великий вибір компонентів: бендикс стартера, підшипники до стартерів, підшипники до генераторів, соленоїди, щітки стартера, якір стартера, регулятор генератора, шків генератора, діодний міст генератора, щітки генератора. У нашому асортименті стартера, генератори, компоненти брендів AS, Cargo, Koyo, ZM, ZEN, IKA, Mobiletron, оригінальні бренди BOSCH, DELCO, DENSO.</p>
-             <div class="footer__legal">
-             <span>© Restart 2019</span>
+            <div class="select">
+               <picture><source srcset="../img/mark.webp" type="image/webp"><img src="../img/mark.png" alt=""></picture>
+               <select name="Berlin" id="">
+                  <option class="select__option" value="Berlin">Berlin</option>
+               </select>
+            </div>
+            <div class="tel">
+              <a href="tel:+380983527547">+380983527547</a>
+            </div>
+            <div class="email">
+               <a href="#">E: <span>info@gmail.com</span></a>
+             </div>
+      </div>
+      <div class="swiper mySwiper">
+         <div class="swiper-wrapper">
+           <div class="swiper-slide"><picture><source srcset="../img/header__bg1.webp" type="image/webp"><img src="../img/header__bg1.png" alt=""></picture></div>
+         
+           <div class="swiper-slide"><picture><source srcset="../img/header__bg2.webp" type="image/webp"><img src="../img/header__bg2.png" alt=""></picture></div></div>
+         
+         </div>
+         <div class="swiper-pagination"></div>
+       </div>
+              
+         </div>
+         
+      </div>
+    
+      <div class="header__text"><span>Next Project</span><h2>Perfect  proportions</h2>
+        </div>
+   </div>
+  </div>
+</header>
+          <footer class="footer">
+       <div class="gallery__name">
+            <p>Contact</p>
+            <span></span></div>
+        <div class="container">
+            <div class="footer__wrapper">
+                    <div class="footer__title">
+                        <h1>Drop us a line</h1>
+                    </div>
+                    <div class="footer__news-title">
+                        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
+                    </div>
+                    <div class="footer__about-title">
+                        <h1>Do you want to work in our team?   </h1>
+                    </div>
+                    <div class="footer__subtitle">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. </p>
+                    </div>
+                    <div class="footer__block-subtitle">
+                        <div class="footer__block">
+                            <div class="footer__news-subtitle">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam. </p>
+                    </div>
+                    <div class="footer__news-form">
+                        <div class="footer__news-text">Email</div>
+                        <div class="footer__news-img"><picture><source srcset="../img/arrow-right.webp" type="image/webp"><img src="../img/arrow-right.png" alt=""></picture></div>
+                        <div class="footer__news-img1"><picture><source srcset="../img/about__footer-right.webp" type="image/webp"><img src="../img/about__footer-right.png" alt=""></picture></div>
+                    </div></div>
+                       
+                </div>
+        
+                
+                    <div class="footer__list">
+                        <div class="footer__list-item ml102">
+                        <div class="footer__list-title"><div>Kyiv</div></div>
+                        <div class="footer__list-subtitle"><p>(209) 555-0104 6391 Elgin St. Celina,Delaware 10299</p></div>
+                        </div>
+                        <div class="footer__list-item ml102">
+                            <div class="footer__list-title"><div>Lviv</div></div>
+                            <div class="footer__list-subtitle"><p>(209) 555-0104 6391 Elgin St. Celina,Delaware 10299</p></div>
+                        </div>
+                        <div class="footer__list-item ">
+                            <div class="footer__list-title"><div>Kharkiv</div></div>
+                            <div class="footer__list-subtitle"><p>(209) 555-0104 6391 Elgin St. Celina,Delaware 10299</p></div>
+                        </div>
+                        <div class="social mr296">
+                            <div class="footer__email"><a href="#">info@gmail.com</a></div>
+                            <div class="footer__social-links">
+                                <a href=""><picture><source srcset="../img/Fb.webp" type="image/webp"><img src="../img/Fb.png" alt=""></picture></a>
+                                <a href=""><picture><source srcset="../img/In2.webp" type="image/webp"><img src="../img/In2.png" alt=""></picture></a>
+                                <a href=""><picture><source srcset="../img/Be.webp" type="image/webp"><img src="../img/Be.png" alt=""></picture></a>
+                            </div>
+                            
+                        </div>
+                   
+                </div> <div class="footer__btn"><button>Make request</button></div>  
+                <div class="footer__about-social">
+                <div class="container">
+                    <div class="footer__about-wrapper">
+                        <div class="footer__about-email">info@hi-light.pl</div>
+                        <div class="footer__about-links">
+                              <div class="footer__about-link"><picture><source srcset="../img/Fb-about.webp" type="image/webp"><img src="../img/Fb-about.png" alt=""></picture></div>
+                        <div class="footer__about-link"><picture><source srcset="../img/In-about.webp" type="image/webp"><img src="../img/In-about.png" alt=""></picture></div>
+                        <div class="footer__about-link"><picture><source srcset="../img/Be-about.webp" type="image/webp"><img src="../img/Be-about.png" alt=""></picture></div>
+                        </div>
+                      
+                    </div>
+                </div>
             </div>
             </div>
-</div></footer>
-    <script src="js/app.min.js?_v=20220725183804"></script>
+          
+            <div class="copyright">
+                <div class="copyright__left">
+                    <p>© Copyright 2018. All rights reserved</p>
+                </div>
+                <div class="copyright__right">
+                    <p>Made with love in</p>
+                    <picture><source srcset="../img/copyright-img.webp" type="image/webp"><img class="one__footer-img1" src="../img/copyright-img.png" alt=""></picture>
+                    <picture><source srcset="../img/one__footer-img.webp" type="image/webp"><img class="one__footer-img" src="../img/one__footer-img.png" alt=""></picture>
+                </div>
+            </div>
+        </div>
+        </footer>
+    </div>
+</div>
 </body>
 </html>
