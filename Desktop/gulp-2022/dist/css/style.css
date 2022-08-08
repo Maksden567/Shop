@@ -5529,6 +5529,112 @@ footer .social {
     left: 82px;
     margin-top: 57px;
   }
+
+  .news .tips__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 137px;
+    padding-bottom: 83px;
+  }
+
+  .news .tips__item {
+    height: 333px;
+    width: 333px;
+    margin-bottom: 8px;
+    margin-top: -2px;
+    margin-left: 2px;
+  }
+
+  .news .tips__item2 .tips__item-wrapper .tips__item-title {
+    width: 120px;
+    padding-top: 73px;
+    color: #FFFFFF;
+  }
+
+  .news .tips__item3 .tips__item-wrapper .tips__item-title {
+    width: 160px;
+    padding-top: 73px;
+    color: #FFFFFF;
+  }
+
+  .news .tips__item-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* 1 */
+    width: 217px;
+    color: #080808;
+  }
+
+  .news .tips__item-wrapper {
+    padding-left: 32px;
+    padding-top: 186px;
+  }
+
+  .news .tips__item-subtitle {
+    display: none;
+  }
+
+  .news .header__subtitle {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-left: -1px;
+    margin-top: 42px;
+  }
+
+  .news .tips__item-wrapper1 {
+    padding-left: 30px;
+    padding-top: 187px;
+  }
+
+  .news .tips__item-wrapper1 .header__subtitle {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-top: 39px;
+  }
+
+  .news .news__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 26px;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .news .news__img img {
+    width: 14px;
+    height: 14px;
+    margin-left: 2px;
+    margin-right: 24px;
+    opacity: 0.5;
+  }
+
+  .news .news__nember:first-child {
+    margin-right: 19px;
+  }
+
+  .news .news__nember1 {
+    margin-right: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #080808;
+    margin-left: 16px;
+  }
 }
 
 @media screen and (max-width: 420px) {
