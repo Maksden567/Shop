@@ -1,0 +1,133 @@
+.projects .header{
+    background: none;
+    height: 180px;
+    
+}
+
+ .header__wrapper{
+    padding-top: 25px;
+    padding-bottom: 23px;
+}
+.projects .logo {
+    color: black;
+    margin-top: 2px;
+}
+.projects .swiper{
+    display: none;
+}
+
+.projects .list__link {
+    color:#080808;
+}
+
+.projects .laungrech {
+    color:#080808;
+}
+.projects {
+    .list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-left: 140px;
+        margin-top: 13px;
+    }
+}
+.projects .header__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 3px;
+    margin-right: -12px;
+}
+.projects .header__right-btn {
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    color:#080808;
+    padding: 18px 45px 18px 48px;
+    margin-right: 16px;
+}
+
+.projects .header__bottom {
+    display: none;
+}
+
+.projects .header__info {
+    display: none;
+}
+.projects .menu{
+    top: 100px;
+}
+
+.projects .menu{
+    left: 691px;
+}
+.projects .main__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #080808;
+    padding-left: 135px;
+    padding-top: 16px;
+}
+.main__subtitle{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+width: 460px;
+color: #080808;
+margin-left: 359px;
+margin-top: 10px;
+
+}
+.projects .project{
+    margin-top: 173px;
+    background: none;
+}
+.projects .project__text{
+    display: none;
+}
+.projects  .gallery__subtitle{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+width: 340px;
+font-size: 14px;
+line-height: 24px;
+
+/* 1 */
+
+color: #080808;
+}
+.projects .gallery__title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 51px;
+
+/* 1 */
+
+color: #080808;
+
+}
+ .projects .gallery__btn{
+    border: 1px solid rgba($color: #000000, $alpha: 0.32);
+ }
+ .projects .projects__item{
+    display: none;
+ }
+ .projects .delete__project-item{
+    display: block;
+  }
+  .projects .one__footer-img1{
+    display: none;
+  }

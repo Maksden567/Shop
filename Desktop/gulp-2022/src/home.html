@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{
+    "title":"Главная"
+})
+<body class="home">
+    <div class="wrapper">
+      @@include('html/header.html',{})
+
+
+      <main>
+       <section class="company">
+        
+           <div class="company__wrapper">
+           <div class="name">
+          
+             <span>
+             </span>
+                <div class="name__text">
+               About
+             </div>
+           </div>
+             <div class="company__top">
+             
+               <div class="company__top-text1">
+              
+                 <div class="company__top-title">Company Philosophy</div>
+                 <div class="company__top-subtitle">The basic philosophy of our studio is to create individual aesthetically stunning solutions for our customers by lightning-fast development of projects employing unique styles and architecture. Even if you don't have a ready sketch of what you want - we will help you get the result.</div>
+                 <div class="company__top-subtitle">We can also help you create harmony out of seemingly completely incompatible elements in the interior or the exterior design. Do you want to combine classics and abstract art? Modern and retro? Love everything associated with the 1940's? No problem!</div>
+                 <div class="header__subtitle">
+                   <span class="line"></span>
+                   <p>Discover more</p>
+                   <span></span>
+                </div>
+               </div>
+               <img src="./img/company-img1.png" alt="">
+             </div>
+             <div class="company__bottom"> 
+               <img  class="company-img"src="./img/company-img3.png" alt="">
+               <div class="company__bottom-wrapper">
+                  <img src="./img/company-img2.png" alt="">
+               <div class="company__top-text">
+                 <div class="company__top-subtitle1">
+                   <span>“</span>
+                   <p>   We can also help you create harmony out of seemingly completely incompatible elements in the interior or the exterior design. </p>
+                
+                 </div>
+               </div>
+               </div>
+               
+             
+             </div>
+           </div>
+         </div>
+       </section> 
+        
+        @@include('./project.html',{})
+        
+        <section class="lorem">
+         <div class="lorem__item1"><img src="./img/lorem1.png"></div>
+         <div class="lorem__item2"><img src="./img/lorem2.png"></div>
+         <div class="lorem__item3"><img src="./img/lorem3.png"></div>
+         <div class="lorem__item4"><img src="./img/lorem5.png"></div>
+         <div class="lorem__item5"><img src="./img/lorem4.png"></div>
+         <div class="lorem__item6"><img src="./img/lorem6.png"></div>
+         <div class="lorem__item7"><img src="./img/lorem7.png"></div>
+         <div class="lorem__item8"><img src="./img/lorem8.png"></div>
+         <div class="container">
+              <div class="lorem__wrapper">
+               <div class="lorem__text">
+                 <div class="lorem__title">@lorem.ipsum</div>
+               <div class="lorem__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. </div>
+               </div>
+               
+              </div>
+         </div>
+      
+       </section> 
+          
+      </main>
+     
+   
+     @@include('html/footer.html',{})   
+   
+    </div>   
+      <script src="./js/app.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 0,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+</body>
+</html>

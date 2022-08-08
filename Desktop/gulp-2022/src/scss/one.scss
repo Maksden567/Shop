@@ -1,0 +1,244 @@
+.one .header{
+    background: none;
+    height: 180px;
+    
+}
+.one .logo {
+    color: black;
+}
+
+
+.one .list__link {
+    color:#080808;
+}
+
+.one .laungrech {
+    color:#080808;
+}
+.one .header__right-btn {
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    color:#080808;
+}
+
+.one .header__bottom {
+    display: none;
+}
+
+.one .header__info {
+    display: none;
+}
+.one__wrapper{
+    display: flex;
+    padding-left: 135px;
+    
+}
+.one__title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+color: #080808;
+width: 474px;
+margin-bottom: 32px;
+}
+.one__subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #080808;
+    opacity: 0.7;
+    width: 715px;
+}
+.social__info{
+    margin-left: 208px;
+    margin-top: 10px;
+}
+.social__items{
+    display: flex;
+    align-items: center;
+}
+.social__title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 170.66%;
+color: #080808;
+}
+.one__inner{
+    padding-left: 135px;
+    margin-top: 100px;
+    
+}
+.one__img{
+    padding-top: 100px;
+}
+.one__inner-title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: #080808;
+width: 419px;
+margin-bottom: 17px;
+}
+.one__inner-subtitle{
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+color: #080808;
+opacity: 0.7;
+width: 715px;
+margin-bottom: 40px;
+}
+.one__list{
+    margin-bottom: 40px;
+}
+.one__list-item1{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 170.66%;
+color: #080808;
+opacity: 0.7;
+margin-bottom: 12px;
+}
+.one__list-item{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 170.66%;
+color: #080808;
+opacity: 0.7;
+margin-bottom: 12px;
+}
+.one__images{
+    margin-top: 96px;
+}
+.one__images-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one__images-item{
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+.one__images-items:last-child{
+    margin: 0;
+}
+
+
+.one__list-item:before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #000;
+    display: inline-block;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid 
+    #515151;
+   margin-right: 10px;
+}
+.one .line{
+    margin-top: 96px;
+    height: 1px;
+    background: #828282;
+    opacity: 0.16;
+    width: 88%;
+}
+.one__wrapper-margin{
+    padding-bottom: 140px;
+}
+
+.slider__title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+color: #080808;
+padding-left: 135px;
+margin-bottom: 72px;
+}
+.swiper {
+    width: 100%;
+   height: 591px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+   display: flex;
+   flex-direction: column;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 389px;
+    object-fit: cover;
+  }
+  .swiper-wrapper{
+    left: -358px;
+  }
+  .swiper__slide-title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+width: 293px;
+color: #3A3E4B;
+text-align: start;
+margin-top: 24px;
+margin-bottom: 16px;
+  }
+  .data{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 17px;
+text-align: start;
+color: #828282;
+
+  }
+  .one .footer{
+    background: none;
+  }
+  .one .footer__list{
+    display: none;
+  }
+  .one .footer__btn{
+    display: none;
+  }
+  .one .footer__title{
+    display: none;
+  }
+  .one .footer__subtitle{
+    display: none;
+  }
+  .one .one__footer-img{
+    display: block;
+  }
+ .one .one__footer-img1{
+    display: none;
+  }
+  .one .footer .gallery__name{
+    display: none;
+  }
+  .one .footer__wrapper{
+    padding: 0;
+    margin: 0;
+  }

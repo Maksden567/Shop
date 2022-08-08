@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('html/head.html',{
+        "title":"Главная"
+    })
+<body class="projects">
+    @@include('html/header.html',{})
+    <main class="projects__main">
+        <div class="main__menu">
+            <div class="container">
+                <div class="main__menu-wrapper">
+                     <div class="main__title">Our Projectss</div>
+                     <div class="main__text">
+                        <div class="main__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ullamcorper eu mauris vitae posuere. Ut at luctus ligula. Nunc ante felis, aliquam eu enim sed, ornare pretium velit.
+                     </div>
+            <ul class="menu">
+                <li class="menu__item"><a href="">House</a></li>
+                <li class="menu__item"><a href="./one__project.html">Apartments</a></li>
+                <li class="menu__item"><a href="">Commerce</a></li>
+                <li class="menu__item"><a href="">Architecture</a></li>
+            </ul>
+                     </div>
+                     
+            </div>
+                </div>
+               
+            
+        </div>
+        @@include('./project.html',{})
+    </main>
+    <div class="projects__footer">
+        <div class="container">
+             <div class="copyright">
+        <div class="copyright__left">
+            <p>© Copyright 2018. All rights reserved</p>
+        </div>
+        <div class="copyright__right">
+            <p>Made with love in</p>
+            <img class="one__footer-img1" src="../img/copyright-img.png" alt="">
+           <img src="./img/one__footer-img.png" alt="">
+        </div>
+    </div>
+        </div>
+    </div>
+   
+</body>
+</html>
