@@ -5635,6 +5635,40 @@ footer .social {
     color: #080808;
     margin-left: 16px;
   }
+
+  .news .footer__wrapper {
+    padding: 103px 276px 32px 78px;
+  }
+
+  .news .footer__block-subtitle p {
+    width: 375px;
+  }
+
+  .news .footer__news-form {
+    margin-top: 41px;
+    width: 345px;
+    margin-right: 34px;
+  }
+
+  .news .footer__news-form {
+    margin-top: 41px;
+    width: 520px;
+    margin-right: -139px;
+  }
+
+  .news .footer {
+    height: 543px;
+  }
+
+  .news .copyright__left {
+    margin-left: -9px;
+    margin-top: 4px;
+  }
+
+  .news .copyright p {
+    margin-top: -11px;
+    margin-right: 5px;
+  }
 }
 
 @media screen and (max-width: 420px) {
