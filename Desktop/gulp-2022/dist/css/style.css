@@ -5915,6 +5915,63 @@ footer .social {
     margin-left: 9px;
   }
 
+  .news .footer {
+    height: 518px;
+    margin-top: 59px;
+  }
+
+  .news .copyright {
+    padding-bottom: 0;
+  }
+
+  .news .footer__news-title h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 298px;
+  }
+
+  .news .footer__wrapper {
+    padding: 78px 276px 49px 2px;
+  }
+
+  .news .footer__block {
+    margin-right: 0px;
+    width: 327px;
+  }
+
+  .news .footer__news-subtitle {
+    display: block;
+    width: 327px;
+  }
+
+  .news .footer__block-subtitle {
+    width: 327px;
+  }
+
+  .news .footer__block-subtitle p {
+    width: 327px;
+  }
+
+  .news .footer__news-form {
+    margin-top: 39px;
+    width: 327px;
+    margin-right: -139px;
+  }
+
+  .news .copyright__left {
+    margin-left: -9px;
+    margin-top: -65px;
+  }
+
+  .news .copyright p {
+    margin-top: -22px;
+    margin-right: 5px;
+  }
+
   .contact .header__wrapper {
     padding-top: 34px;
     padding-bottom: 24px;
