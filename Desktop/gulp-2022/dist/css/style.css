@@ -2766,6 +2766,10 @@ body {
   display: none;
 }
 
+.header__right-btn.active {
+  color: white;
+}
+
 .home .project__item .project__item-icons {
   display: none;
 }
@@ -6266,6 +6270,204 @@ footer .social {
   .news .copyright p {
     margin-top: -17px;
     margin-right: 5px;
+  }
+
+  .about__main-subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    width: 327px;
+    margin-top: 13px;
+    color: #fff;
+  }
+
+  .about__slider-title {
+    width: 327px;
+  }
+
+  .about__info-wrapper {
+    padding-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 700px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+
+  .about__main-title {
+    width: 327px;
+  }
+
+  .about__info-items,
+  .about__info-text {
+    margin-left: 18px;
+    width: 327px;
+  }
+
+  .about__info-text {
+    margin-top: 10px;
+  }
+
+  .about__info-left img {
+    width: 324px;
+    height: 321px;
+    margin-left: 348px;
+  }
+
+  .about .burger-btn {
+    position: absolute;
+    left: 326px;
+    top: 31px;
+  }
+
+  .about__info-right {
+    margin-top: 0px;
+    padding-top: 319px;
+  }
+
+  .about__info-item {
+    width: 139px;
+    margin-right: 24px;
+    margin-bottom: 13px;
+  }
+
+  .about__info-items {
+    margin-top: 20px;
+  }
+
+  .person__info {
+    display: none;
+  }
+
+  .person__wrapper {
+    padding-left: 39px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .person__name {
+    margin-left: -25px;
+    margin-top: 280px;
+  }
+
+  .person__work {
+    margin-left: -25px;
+  }
+
+  .person__img {
+    margin-left: -297px;
+    margin-top: -80px;
+  }
+
+  .about .lorem {
+    background: #000;
+    height: 663px;
+  }
+
+  .about__slider-wrapper {
+    padding-top: 100px;
+    padding-left: 36px;
+    padding-bottom: 100px;
+  }
+
+  .about .footer__about-title {
+    width: 327px;
+    font-size: 32px;
+  }
+
+  .about .footer__news-subtitle {
+    width: 311px;
+    margin-top: 13px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+  }
+
+  .about .footer__block-subtitle {
+    margin-top: 0px;
+    display: block;
+  }
+
+  .about .footer__news-form {
+    margin-top: -13px;
+    width: 310px;
+    border-bottom: 1px solid #515151;
+    padding-bottom: 7px;
+    margin-right: 0;
+  }
+
+  .about .footer__about-links {
+    margin-left: -16px;
+    margin-top: 10px;
+  }
+
+  .about .footer__about-wrapper {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 327px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .about .footer__wrapper {
+    padding: 39px 131px 78px 4px;
+    margin-bottom: -24px;
+  }
+
+  .about .footer__about-title h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+    color: #080808;
+    width: 327px;
+  }
+
+  .about__slider-subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    width: 287px;
+    color: #080808;
+    padding-top: 10px;
+    padding-bottom: 42px;
+  }
+
+  .about__slider {
+    padding-top: 10px;
+    height: 800px;
+  }
+
+  .about__slider .header__pagination {
+    top: 360px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .slider__img-wrapper img {
+    width: 325px;
+    height: 360px;
+  }
+
+  .slider__img-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 415px;
+    left: 7px;
+    width: 1118px;
   }
 
   .contact .header__wrapper {
