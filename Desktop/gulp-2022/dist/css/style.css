@@ -5903,6 +5903,18 @@ footer .social {
     margin-left: 2px;
   }
 
+  .news .news__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: -69px;
+    width: 100%;
+    margin-left: 9px;
+  }
+
   .contact .header__wrapper {
     padding-top: 34px;
     padding-bottom: 24px;
