@@ -717,9 +717,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 65px;
+  margin-top: -65px;
   width: 100%;
-  margin-left: 20px;
+  margin-left: 10px;
+  padding-bottom: 130px;
 }
 
 .news__wrapper {
@@ -1729,12 +1730,21 @@
 }
 
 .about .header {
-  background: none;
-  height: 180px;
+  background: #fff;
+  height: 96px;
+}
+
+.header {
+  background: #000;
 }
 
 .about .logo {
   color: black;
+}
+
+.about .list {
+  margin-top: 6px;
+  margin-left: 138px;
 }
 
 .about .list__link {
@@ -1743,15 +1753,35 @@
 
 .about .laungrech {
   color: #080808;
+  margin-top: -8px;
+  margin-right: 84px;
 }
 
 .about .header__right-btn {
   border: 1px solid rgba(0, 0, 0, 0.32);
   color: #080808;
+  margin-top: -7px;
+  margin-right: 9px;
+}
+
+.about .header__left {
+  margin-top: 10px;
 }
 
 .about .header__bottom {
   display: none;
+}
+
+.about .header__text {
+  display: none;
+}
+
+.about .menu__item:first-child {
+  border-bottom: 1px solid black;
+}
+
+.about .menu__item {
+  height: 23px;
 }
 
 .about .header__info {
@@ -1782,6 +1812,8 @@
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  margin-top: 69px;
+  margin-left: 9px;
 }
 
 .about__main-title {
@@ -1793,6 +1825,7 @@
   text-align: center;
   width: 383px;
   color: #FFFFFF;
+  margin-top: 8px;
 }
 
 .about__main-subtitle {
@@ -1803,6 +1836,7 @@
   line-height: 24px;
   text-align: center;
   width: 383px;
+  margin-top: 13px;
   color: #FFFFFF;
 }
 
@@ -1830,8 +1864,8 @@
   line-height: 24px;
   width: 383px;
   color: #080808;
-  padding-top: 24px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 42px;
 }
 
 .about .header__pagination span {
@@ -1855,7 +1889,7 @@
 
 .about__slider-wrapper {
   padding-top: 100px;
-  padding-left: 200px;
+  padding-left: 264px;
   padding-bottom: 100px;
 }
 
@@ -1865,8 +1899,8 @@
   display: flex;
   position: absolute;
   top: 140px;
-  left: 844px;
-  width: 950px;
+  left: 777px;
+  width: 1115px;
 }
 
 .slider__img-wrapper img {
@@ -1884,15 +1918,19 @@
 }
 
 .about__info {
-  margin-top: 140px;
+  margin-top: 135px;
   position: relative;
 }
 
 .about__info-wrapper {
-  padding-left: 65px;
+  padding-left: 67px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.about__info-right {
+  margin-top: -10px;
 }
 
 .about__info-items {
@@ -1924,6 +1962,7 @@
 .about__info-subtitle {
   font-family: "Montserrat";
   font-style: normal;
+  margin-top: 4px;
   font-weight: 300;
   font-size: 14px;
   line-height: 132%;
@@ -1949,12 +1988,16 @@
   width: 168px;
   height: 216px;
   right: 0;
-  top: 437px;
+  top: 430px;
+}
+
+.about__info-item:last-child {
+  margin-bottom: 70px;
 }
 
 .person {
-  margin-top: 260px;
-  margin-bottom: 140px;
+  margin-top: 166px;
+  margin-bottom: 146px;
 }
 
 .person__name {
@@ -1982,7 +2025,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: -50px;
+  margin-left: -47px;
+  margin-top: -5px;
 }
 
 .person__wrapper {
@@ -2019,7 +2063,7 @@
 
 .person__img {
   margin-left: 132px;
-  margin-top: -73px;
+  margin-top: 12px;
 }
 
 .person__info {
@@ -2038,7 +2082,7 @@
 }
 
 .person__item {
-  margin-right: 100px;
+  margin-right: 79px;
 }
 
 .person__item-title {
@@ -2057,6 +2101,7 @@
   font-size: 14px;
   line-height: 132%;
   width: 81px;
+  margin-top: 6px;
   color: #080808;
 }
 
@@ -2065,7 +2110,7 @@
 }
 
 .person__info-img {
-  margin-top: -50px;
+  margin-top: -75px;
 }
 
 .person__info-items {
@@ -2081,26 +2126,26 @@
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 23.5px;
   color: #080808;
   margin-top: 37px;
 }
 
 .about .lorem {
   background: url(../img/lorem__bg1.png);
+  height: 809px;
 }
 
 .about .lorem__title {
   color: #FFFFFF;
+  margin-left: -32px;
 }
 
 .about .lorem__subtitle {
   color: #FFFFFF;
   opacity: 0.6;
-}
-
-.lorem__subtitle {
-  margin-top: 18px;
+  margin-left: -2px;
+  margin-top: 14px;
 }
 
 .about .gallery__name {
@@ -2109,6 +2154,11 @@
 
 .about .footer {
   background: #ECECEC;
+}
+
+.about .footer__wrapper {
+  padding: 144px 131px 25px 139px;
+  margin-bottom: -24px;
 }
 
 .about .footer__news-title {
@@ -2145,6 +2195,7 @@
 }
 
 .about .footer__block-subtitle {
+  margin-top: 91px;
   display: block;
 }
 
@@ -2167,13 +2218,15 @@
 
 .about .footer__news-subtitle {
   width: 366px;
+  margin-top: 13px;
+  margin-right: 22px;
 }
 
 .about .footer__news-form {
-  margin-top: 0;
-  width: 362px;
+  margin-top: -13px;
+  width: 380px;
   border-bottom: 1px solid #515151;
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 }
 
 .about .footer__news-subtitle p {
@@ -2229,6 +2282,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 14px;
 }
 
 .about .footer__about-link {
@@ -2244,11 +2298,13 @@
   letter-spacing: 0.06em;
   /* 3 */
   color: #080808;
-  margin-right: 180px;
+  margin-right: 167px;
 }
 
 .about .footer__about-social {
   display: block;
+  margin-right: 20px;
+  margin-top: -15px;
 }
 
 .contact__wrapper .header {
@@ -4037,9 +4093,10 @@ footer .social {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 33px;
-    width: 100%;
-    margin-left: 20px;
+    margin-top: -68px;
+    width: 100;
+    margin-left: 10px;
+    padding-bottom: 102px;
   }
 
   .tips__item {
@@ -5634,9 +5691,10 @@ footer .social {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 26px;
+    margin-top: -57px;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 9px;
+    padding-bottom: 83px;
   }
 
   .news .news__img img {
@@ -5913,6 +5971,7 @@ footer .social {
     margin-top: -69px;
     width: 100%;
     margin-left: 9px;
+    padding-bottom: 0;
   }
 
   .news .footer {
@@ -5968,7 +6027,7 @@ footer .social {
   }
 
   .news .copyright p {
-    margin-top: -22px;
+    margin-top: -17px;
     margin-right: 5px;
   }
 
