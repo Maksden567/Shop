@@ -557,6 +557,10 @@
   display: none;
 }
 
+.img2 {
+  display: none;
+}
+
 .main__title {
   font-family: "Montserrat";
   font-style: normal;
@@ -565,6 +569,10 @@
   line-height: 44px;
   color: #080808;
   padding-left: 75px;
+}
+
+.tips__item-wrapper img {
+  display: none;
 }
 
 .menu {
@@ -620,6 +628,10 @@
   padding-top: 327px;
 }
 
+.news .select {
+  display: none;
+}
+
 .tips__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -659,6 +671,12 @@
 }
 
 .tips__item1 {
+  height: 653px;
+  width: 656px;
+  background: #F2F2F2;
+}
+
+.tips__item6 {
   height: 653px;
   width: 656px;
   background: #F2F2F2;
@@ -4036,6 +4054,14 @@ footer .social {
     width: 200px;
   }
 
+  .tips__item6 {
+    margin-right: 6px;
+  }
+
+  .tips__item6 .header__subtitle {
+    width: 200px;
+  }
+
   .tips__item2 {
     background: url(../img/hall.png);
     margin-right: 5px;
@@ -5672,6 +5698,211 @@ footer .social {
 }
 
 @media screen and (max-width: 420px) {
+  .news .header {
+    height: 116px;
+  }
+
+  .news .logo {
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+
+  .news .laungrech {
+    margin-top: 2px;
+    margin-right: 96px;
+  }
+
+  .news .burger-btn {
+    margin-left: -2px;
+    margin-top: 0px;
+  }
+
+  .news .main__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #080808;
+    padding-left: 3px;
+  }
+
+  .news .menu {
+    display: none;
+  }
+
+  .news .select {
+    display: block;
+  }
+
+  .main__menu-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .news .select select {
+    border: 1px solid #C4C4C4;
+    border-radius: 88px;
+    margin-top: 19px;
+    width: 128px;
+    color: black;
+    padding-left: 10px;
+  }
+
+  .news .select select option {
+    border: 1px solid #C4C4C4;
+    border-radius: 88px;
+    margin-top: 19px;
+    width: 128px;
+    color: black;
+    padding-left: 10px;
+  }
+
+  .tips__item-wrapper img {
+    display: block;
+    width: 371px;
+    height: 218px;
+    margin-left: 2px;
+  }
+
+  .news .tips__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 69px;
+    padding-bottom: 83px;
+  }
+
+  .news .tips__item-wrapper {
+    padding-left: 32px;
+    padding-top: 0px;
+  }
+
+  .news .tips__item-wrapper {
+    padding-left: 0px;
+    padding-top: 0;
+  }
+
+  .news .tips__item-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    width: 298px;
+    color: #080808;
+    padding-top: 23px;
+    padding-left: 23px;
+    letter-spacing: -0.2px;
+  }
+
+  .news .header__subtitle {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-left: 22px;
+    margin-top: 37px;
+  }
+
+  .tips__item4 {
+    display: none;
+  }
+
+  .tips__item5 .img1 {
+    display: none;
+  }
+
+  .tips__item5 .img2 {
+    display: block;
+  }
+
+  .news .tips__item {
+    height: 355px;
+    width: 327px;
+    margin-bottom: 8px;
+    margin-top: -2px;
+    margin-left: 2px;
+  }
+
+  .news .tips__item6 {
+    height: 137px;
+    width: 327px;
+    margin-bottom: 8px;
+    margin-top: -2px;
+    margin-left: 2px;
+  }
+
+  .news .tips__item5 {
+    height: 216px;
+    width: 327px;
+    margin-bottom: 8px;
+    margin-top: -2px;
+    margin-left: 2px;
+  }
+
+  .news .tips__item-wrapper1 {
+    padding-left: 23px;
+    padding-top: 0px;
+  }
+
+  .news .tips__item-wrapper1 .tips__item-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    width: 298px;
+    color: #080808;
+    letter-spacing: -0.2px;
+    padding-top: 19px;
+    padding-left: 0px;
+  }
+
+  .news .tips__item-wrapper1 .header__subtitle {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-left: 0;
+    margin-top: 36px;
+  }
+
+  .news .tips__item2 .tips__item-wrapper .tips__item-title {
+    width: 150px;
+    padding-top: 262px;
+    color: #fff;
+    padding-left: 24px;
+  }
+
+  .news .tips__item3 .tips__item-wrapper .tips__item-title {
+    width: 177px;
+    padding-top: 262px;
+    color: #fff;
+    padding-left: 23px;
+  }
+
+  .news .tips__item2 {
+    height: 327px;
+    width: 327px;
+    margin-bottom: 8px;
+    margin-top: -2px;
+    margin-left: 2px;
+  }
+
+  .news .tips__item3 {
+    height: 327px;
+    width: 327px;
+    margin-bottom: 8px;
+    margin-top: -2px;
+    margin-left: 2px;
+  }
+
   .contact .header__wrapper {
     padding-top: 34px;
     padding-bottom: 24px;
