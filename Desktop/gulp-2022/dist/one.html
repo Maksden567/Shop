@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css?_v=20220812153059"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css?_v=20220811160250"
   />
-    <link rel="stylesheet" href="css/style.min.css?_v=20220812153059">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220811160250">
     <title>Главная</title>
 </head>
     <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220812153059"/>
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220811160250"/>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220812153059"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220811160250"></script>
 <body class="one">
     <header class="header">
 
@@ -151,7 +151,7 @@
                         <li class="one__list-item1">4. Donec et ipsum nec quam posuere maximus eu in erat. </li>
                         <li class="one__list-item1">5. Duis laoreet finibus consectetur.  </li>
                     </ul>
-                    <div class="one__inner-subtitle">Aliquam iaculis ac urna at consequat. Pellentesque fermentum tellus eu nisi viverra gravida. Sed suscipit vestibulum accumsan. Sed ac magna id sem hendrerit convallis quis a magna. Mauris eget ornare est. Morbi metus justo, posuere vel semper semper, eleifend ut purus. Morbi cursus consequat nibh, a feugiat felis tempor vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sodales orci nisl, in lacinia risus rhoncus a. Praesent consectetur egestas risus, id consectetur felis.</div>
+                    <div class="one__inner-subtitle">Ut arcu tortor, hendrerit eget sollicitudin sed, tincidunt a lectus. Cras gravida ultricies ante sit amet consectetur. Maecenas sed arcu tempor, posuere odio pharetra, faucibus risus. Etiam fermentum felis quis aliquet viverra. Mauris in odio nec mi pellentesque placerat. Praesent at metus in lacus posuere molestie. Aliquam consequat, neque eget congue feugiat, lectus leo condimentum lorem, scelerisque euismod nisi ipsum nec metus. Mauris semper felis venenatis eros interdum sollicitudin.</div>
                 </div>
             </div>
         </section>
@@ -170,7 +170,7 @@
                 </div>
             </div>
         </section>
-        <section class="one__info">
+        <section class="one__info one__info1">
             <div class="container">
                 <div class="one__inner one__inner1 one__inner-pt one__wrapper-margin">
                     <div class="one__inner-title">Duis laoreet finibus consectetur.  </div>
@@ -307,16 +307,16 @@
     </div>
 </div>
 </footer>
-    <script src="./js/app.min.js?_v=20220812153059"></script>
+    <script src="./js/app.min.js?_v=20220811160250"></script>
     <script>
         let screenWidth=screen.width
         let number=0
         let mr=0
  screenWidth<=1024? number=3:number=4
- screenWidth<=1024? mr=3:mr=38
+ screenWidth<=1100? mr=-6:mr=38
  screenWidth<=850? number=2:null
  screenWidth<=420? number=1:null
- screenWidth<=420? mr=0:mr=38
+ screenWidth<=420? mr=0:null
 
         var swiper = new Swiper(".mySwiper", {
         slidesPerView:number,

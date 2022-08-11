@@ -123,7 +123,7 @@ body{
 }
 .home .gallery{
   width: 100%;
-  margin-top: -71px;
+  margin-top: -56px;
 }
 .swiper-slide {
   text-align: center;
@@ -1653,7 +1653,7 @@ height: 452px;
 }
 .home .gallery{
   margin-left: 33px;
-  margin-top: 301px;
+  margin-top: 328px;
 }
 .gallery__title{
   text-align: center;
@@ -1683,7 +1683,7 @@ height: 452px;
 }
 .gallery__btn{
   left: 335px;
-  top: 97px;
+  top: 93px;
 }
 .project__item5 {
 img{
@@ -1691,7 +1691,7 @@ img{
 }
 }
 .project{
-  padding-bottom: 285px;
+  padding-bottom: 282px;
 }
 .lorem {
   background: 0 0;
@@ -2157,7 +2157,7 @@ color: #FFFFFF;
 }
 .home .gallery {
   margin-left: 33px;
-  margin-top: 284px;
+  margin-top: 307px;
 }
 .gallery__btn {
   left: 215px;
@@ -2638,10 +2638,11 @@ margin-left: -33px;
   top: 19px;
   left: 26px;
 }
-.home .project__item3 .project__item-title1 {
+
+.home .project__item6 .project__item-title1 {
   width: 318px;
-  top: 246px;
-  margin-left: 3px;
+  top: 247px;
+  margin-left: -6px;
 }
 .home .project__item3 .header__subtitle {
   display: -webkit-box;
@@ -2795,17 +2796,18 @@ text-align: left;
 .project .gallery__name{
   display: none;
 }
+
 .home .project__item3 .project__item-title1 {
   width: 318px;
-  top: 246px;
-  margin-left: -9px;
+  top: 248px;
+  margin-left: -6px;
 }
 .lorem__text {
   margin-top: 25px;
 }
 .home .gallery {
-  margin-left: 24px;
-  margin-top: 302px;
+  margin-left: 23px;
+  margin-top: 327px;
 }
 .lorem__title{
   font-family: 'Montserrat';
@@ -2821,6 +2823,10 @@ color: #080808;
 }
 .lorem{
   height: 670px;
+}
+.home .project__item5 .project__item-title {
+  top: 60px;
+  letter-spacing: -0.2px;
 }
 .lorem__item6 img {
   position: absolute;
@@ -2917,6 +2923,7 @@ h1:last-child{
 }
 .footer__btn{
   margin-top: 49px;
+  margin-left: 2px;
   button{
     padding-top: 15px;
     padding-bottom: 15px;

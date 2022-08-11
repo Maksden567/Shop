@@ -53,7 +53,7 @@ font-size: 36px;
 line-height: 44px;
 color: #080808;
 width: 474px;
-margin-bottom: 14px;
+margin-bottom: 16px;
 }
 .one__subtitle{
     font-family: 'Montserrat';
@@ -83,11 +83,7 @@ line-height: 170.66%;
 color: #080808;
 }
 
-.one__inner{
-    padding-left: 135px;
-    margin-top: 100px;
-    
-}
+
 .one .logo{
     margin-top: 2px;
 }
@@ -96,7 +92,7 @@ color: #080808;
 }
 .one__inner-title {
     margin-left: -2px;
-    margin-top: -3px;
+    margin-top: -4px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
@@ -104,6 +100,7 @@ color: #080808;
     line-height: 22px;
     color: #080808;
     width: 419px;
+    letter-spacing: -0.25px;
     margin-bottom: 17px;
 }
 .one__inner-subtitle{
@@ -114,7 +111,7 @@ font-size: 14px;
 line-height: 24px;
 color: #080808;
 opacity: 0.7;
-width: 715px;
+
 margin-bottom: 40px;
 }
 .one__list{
@@ -283,8 +280,8 @@ color: #828282;
     margin-right: 6px;
 }
 .one__inner {
-    padding-left: 138px;
-    margin-top: 101px;
+    padding-left: 136px;
+    margin-top: 100px;
 }
 .one__inner-pt{
 
@@ -314,7 +311,7 @@ color: #828282;
     line-height: 24px;
     color: #080808;
     opacity: .7;
-    width: 715px;
+    width: 726px;
     margin-bottom: 40px;
     margin-top: -1px;
 }
@@ -398,6 +395,15 @@ color: #828282;
     }
     
 }
+.one .swiper-slide:last-child img{
+  height: 386px;
+    
+}
+.one .swiper-slide:last-child .swiper__slide-title {
+    margin-left: -48px;
+    letter-spacing: -.4px;
+}
+
 @media  screen and (max-width:1024px) {
     .one .header {
         background: 0 0;
@@ -442,8 +448,7 @@ color: #828282;
 }
 .one__inner {
     padding-left: 106px;
-    margin-top: 90px;
-   
+    margin-top: 86px;
 }
 .one__inner-subtitle {
     font-family: Montserrat;
@@ -533,6 +538,32 @@ color: #080808;
     width: 100%;
     height: 553px;
 }
+.one__images-item {
+    margin-bottom: 13px;
+    margin-right: 6px;
+}
+.one .social__info {
+    margin-left: 208px;
+    position: absolute;
+    margin-top: 10px;
+    left: -49px;
+    top: 3263px;
+}
+.one .swiper-slide:first-child .swiper__slide-title {
+    margin-left: -6px;
+    letter-spacing: -.4px;
+}
+.one .swiper-slide:nth-child(2) .swiper__slide-title {
+    margin-left: -11px;
+    letter-spacing: -.4px;
+}
+.one .swiper-slide:nth-child(3) .swiper__slide-title {
+    margin-left: -17px;
+    letter-spacing: -.4px;
+}
+.one .swiper-slide:nth-child(2) {
+    width: 291px;
+}
 }
 @media  screen and (max-width:768px) {
     .one .header__right-btn {
@@ -571,6 +602,10 @@ color: #080808;
     .one .one__title{
         margin-bottom: 11px;
     }
+    .one__inner-title {
+       
+       
+    }
     .one__subtitle {
         font-family: Montserrat;
         font-style: normal;
@@ -589,12 +624,17 @@ color: #080808;
           padding-left: 83px;
             margin-top: 72px;
         &-title{
-          letter-spacing: -0.5px;
-          width: 395px;
+            letter-spacing: -0.48px;
+            width: 395px;
         }
        &-subtitle {
             letter-spacing: -.5px;
             width: 487px;
+            margin-left: -3px;
+        }
+        &-subtitle:last-child{
+            margin-top: 19px;
+            width: 526px;
         }
     }
     .one__list {
@@ -603,10 +643,21 @@ color: #080808;
         margin-left: -5px;
         width: 520px;
     }
+    .one__inner1 {
+        padding-left: 83px;
+        margin-top: 63px;
+        .one__inner-title {
+            letter-spacing: -.4px;
+            width: 395px;
+        }
+    }
     .one__list-item{
         letter-spacing: -0.2px;
 }
-    
+.one__wrapper-margin {
+    padding-bottom: 144px;
+}
+
     .one__list-item1:nth-child(2){
         margin-bottom: 7px;
 
@@ -709,7 +760,7 @@ color: #080808;
         margin-top: 30px;
     }
     .one .slider {
-        padding-bottom: 94px;
+        padding-bottom: 92px;
         /* margin-left: -5px; */
     }
     .one .one__footer-img {
@@ -722,6 +773,42 @@ color: #080808;
         margin-top: -2px;
         margin-left: 3px;
     }
+    .one .swiper-slide:first-child {
+         .data {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            margin-left: -290px;
+            font-size: 10px;
+            margin-top: -5px;
+            line-height: 17px;
+            text-align: start;
+            color: #828282;
+        }
+        .swiper__slide-title {
+        margin-left: -76px;
+        letter-spacing: -.4px;
+        margin-top: 27px;
+    }
+    }
+    .one .swiper-slide:nth-child(2){
+        .swiper__slide-title {
+        margin-left: -60px;
+        margin-top: 27px;
+        letter-spacing: -.4px;
+    }
+    .data {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        margin-left: -275px;
+        font-size: 10px;
+        margin-top: -5px;
+        line-height: 17px;
+        text-align: start;
+        color: #828282;
+    }
+    } 
 }
 @media screen  and (max-width:375px){
     .one .logo {
@@ -927,7 +1014,8 @@ margin-bottom: 41px;
     .copyright__left p {
         margin-top: -48px;
         margin-left: 10px;
-        width: 227px
+        width: 227px;
+        margin-left: 0px;
     
     }
     .copyright__right p {
@@ -936,5 +1024,38 @@ margin-bottom: 41px;
         
     
     }
-
+    .one__inner-subtitle:last-child {
+        margin-top: 19px;
+        width: 326px;
+    }
+    .one__wrapper-margin {
+        padding-bottom: 140px;
+    }
+    .one .swiper-slide:first-child .data {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        margin-left: -211px;
+        font-size: 10px;
+        margin-top: -5px;
+        line-height: 17px;
+        text-align: start;
+        color: #828282;
+    }
+    .one .swiper-slide:nth-child(2) .data {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        margin-left: -245px;
+        font-size: 10px;
+        margin-top: -5px;
+        line-height: 17px;
+        text-align: start;
+        color: #828282;
+    }
+    .one__inner1 .one__inner-title {
+        letter-spacing: -.4px;
+        width: 319px;
+        margin-top: -6px;
+    }
 }
