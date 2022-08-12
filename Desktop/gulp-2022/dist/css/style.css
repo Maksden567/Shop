@@ -9534,6 +9534,74 @@ footer .social {
   .copyright__right p {
     margin-top: -9px;
   }
+
+  .one__project-wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: unset;
+  }
+
+  .one__project .container {
+    width: 327px;
+  }
+
+  .one__project .laungrech {
+    margin-right: 86px;
+  }
+
+  .one__project .logo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 5px;
+    margin-left: -1px;
+  }
+
+  .one__project .header__title h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    width: 452px;
+    color: #FFFFFF;
+  }
+
+  .one__project .header__top {
+    margin-bottom: 60px;
+  }
+
+  .one__project .header__bottom {
+    margin-left: 0px;
+    padding-top: 139px;
+  }
+
+  .one__project .header__block {
+    width: 316px;
+    margin-top: 79px;
+    margin-left: -1px;
+  }
+
+  .one__project .header__info-wrapper {
+    padding-left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .one__project .header__info-item {
+    margin-bottom: 24px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
