@@ -4,12 +4,117 @@
         "title":"Главная"
     })
 <body class="news">
-    @@include('html/header.html',{})
+    <header class="header">
+
+        <div class="container">
+            <div class="header__wrapper">
+              <div class="header__top">
+                 <div class="header__left">
+              <div class="logo">LOGO</div>
+              <nav>
+                 <div class="bg-black">
+                     <div class="overlay">
+                      <div class="menu__pagination">
+                       <img  class="burger-btn1"src="./img/burger-close.png" alt="">
+                       <img  class="burger-btn"src="./img/burger.png" alt="">
+                 <div class="menu__title">Menu</div>
+                 </div>
+                 </div>
+                 </div>
+                
+               
+              
+                 <ul class="list">
+                    <li class="list__item"><a  class="list__link" href="../home.html">Home</a></li>
+                    <li class="list__item"><a  class="list__link" href="../projects.html">Projects</a></li>
+                    <li class="list__item2 list__item"><a  class="list__link" href="../about.html">About us</a></li>
+                    <li class="list__item3 list__item"><a  class="list__link" href="../news.html">Blog</a></li>
+                    <li class="list__item"><a  class="list__link" href="../contact.html">Contacts</a></li>
+                 </ul>
+              </nav>
+           </div>
+           <div class="header__right">
+              <div class="laungrech">En</div>
+              <button class="header__right-btn">Send Request</button>
+           </div>
+              </div>
+           <div class="header__bottom">
+              <div class="header__title">
+                 <h1>Thoughtful making of space</h1>
+              </div>
+              <div class="header__block">
+                 <div class="header__subtitle">
+                    <span class="line"></span>
+                    <p>Discover more</p>
+                    <span></span>
+                 </div>
+                 <div class="header__pagination">
+                    <img class=" swiper-button-prev" src="../img/left.png" alt="">
+                    <div class="pagination__number">02</div>
+                    <span></span>
+                  
+                    <div class="pagination__number">04</div>
+                      <img class="swiper-button-next" src="../img/right.png" alt="">
+                 </div>
+              </div>
+                
+           </div>
+           <div class="header__info">
+                <div class="social">
+                    <div class="social__item">
+                       <a href="" class="social__link">Fb</a>
+                    </div>
+                    <div class="social__item">
+                       <a href="" class="social__link">In</a>
+                    </div>
+                    <div class="social__item">
+                       <a href="" class="social__link">Be</a>
+                    </div>
+                 </div>
+                 <div class="select">
+                    <img src="../img/mark.png" alt="">
+                    <select name="Berlin" id="">
+                       <option class="select__option" value="Berlin">Berlin</option>
+                    </select>
+                 </div>
+                 <div class="tel">
+                   <a href="tel:+380983527547">+380983527547</a>
+                 </div>
+                 <div class="email">
+                    <a href="#">E: <span>info@gmail.com</span></a>
+                  </div>
+           </div>
+           <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../img/header__bg1.png" alt=""></div>
+              
+                <div class="swiper-slide"><img src="../img/header__bg2.png" alt=""></div></div>
+              
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+                   
+              </div>
+              
+           </div>
+         
+           <div class="header__text"><span>Next Project</span><h2>Perfect  proportions</h2>
+             </div>
+        </div>
+       </div>
+     </header>
     <main class="news__main">
         <div class="main__menu">
             <div class="container">
                 <div class="main__menu-wrapper">
                      <div class="main__title">Our latest news</div>
+                     <div class="select">
+                        <select name="" id="">
+                            <option value="">Apartments</option>
+                            <option value="">Blog</option>
+                            <option value="">News</option>
+                        </select>
+                     </div>
             <ul class="menu">
                 <li class="menu__item"><a href="">All</a></li>
                 <li class="menu__item"><a href="">Blog</a></li>
@@ -26,6 +131,7 @@
                 <div class="tips__items">
                 <div class="tips__item tips__item1">
                     <div class="tips__item-wrapper">
+                        <img src="./img/header__bg1.png" alt="">
                         <div class="tips__item-title">5 smart tips for productive collaboration with the designer</div>
                     <div class="tips__item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod. Nam tempus pellentesque ligula ut aliquam.</div>
                     <div class="header__subtitle">
@@ -36,24 +142,29 @@
                     </div>
                     
                 </div>
-                <div class="tips__item">
+                <div class="tips__item tips__item4">
                     <img src="./img/bad1.png" alt="">
                 </div>
-                <div class="tips__item  tips__item2">
+              
+                     <div class="tips__item  tips__item2">
                     <div class="tips__item-wrapper">
                         <div class="tips__item-title">Non-standard plinth options</div>
-                    </div>
-                </div>
-                <div class="tips__item  tips__item3">
+                    </div> </div>
+                     <div class="tips__item  tips__item3">
                     <div class="tips__item-wrapper">
                         <div class="tips__item-title">Interior design, LCD Rybalsky</div>
                     </div>
                 </div>
-                 <div class="tips__item">
-                    <img src="./img/bad1.png" alt="">
+               
+                
+               
+               
+                 <div class="tips__item tips__item5">
+                    <img class="img1"src="./img/bad1.png" alt="">
+                    <img class="img2"src="./img/bad2.png" alt="">
                 </div>
-                <div class="tips__item tips__item1">
-                    <div class="tips__item-wrapper">
+                <div class="tips__item tips__item6">
+                    <div class="tips__item-wrapper1">
                         <div class="tips__item-title">5 smart tips for productive collaboration with the designer</div>
                     <div class="tips__item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod. Nam tempus pellentesque ligula ut aliquam.</div>
                     <div class="header__subtitle">
@@ -62,7 +173,7 @@
                         <span></span>
                      </div>
                     </div>
-                    
+                    </div>
                 </div>
                  <div class="news__pagination">
                 <div class="news__wrapper">
@@ -73,10 +184,10 @@
                             <li class="news__nember">02</li>
                             <li class="news__nember">03</li>
                             <li class="news__dots">...</li>
-                            <li class="news__nember">15</li>
+                            <li class="news__nember1">15</li>
                         </ul>
                   
-                        <div class="news__img"><img src="./img/news-right.png" alt=""></div>
+                        <div class="news__img"><img class="right" src="./img/news-right.png" alt=""></div>
                   
                 </div>
             </div>
@@ -89,5 +200,6 @@
     </main>
 
     @@include('html/footer.html',{})
+    <script src="./js/app.min.js"></script>
 </body>
 </html>

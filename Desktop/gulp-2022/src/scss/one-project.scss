@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 .one__project .header{
     background:url(../img/header-bg1.png);
-    height: 756px;
+    height: 748px;
     background-size: cover;
     background-position: center;
   }
@@ -97,7 +97,7 @@
         color: #FFFFFF;
     }
   }
-  
+ 
   .one__project .header__block {
     margin-left: 0;
     margin-top: 37px;
@@ -129,6 +129,46 @@
    
     }
   }
+  .one__project .header__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-right: -5px;
+}
+.one__project .header__right-btn{
+  padding: 19px 50px;
+}
+  .one__project .list{
+    margin-left: 140px;
+    margin-top: 24px;
+  }
+  .one__project .logo{
+    
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      color: #fff;
+      margin-top: 14px;
+  
+  }
+ 
+  .one__project .header__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: -10px;
+}
   .header__pagination {
     display: flex;
     align-items:center;
@@ -164,10 +204,19 @@
   color: #FFFFFF;
   
   }
+  .one__project{
+    .social__wrapper{
+      display: flex;
+      align-items: center;
+      margin-top: 199px;
+      margin-left: -24px;
+    }
+  }
   .one__project .header__info{
     display: flex;
     align-items:center;
-    margin-top: 64px;
+    margin-top: 66px;
+    margin-left: 4px;
   }
   .header__info-item{
     display: flex;
@@ -177,8 +226,8 @@
     padding-left: 141px;
     display: flex;
   }
-  .header__info-item{
-    margin-right: 32px;
+  .one__project.header__info-item{
+    margin-right: 30px;
   }
   .header__info-town{
     font-family: 'Montserrat';
@@ -191,6 +240,10 @@ color: #FFFFFF;
 opacity: 0.7;
 margin-left: 12px;
   }
+  .one__project .header__bottom {
+    margin-left: 139px;
+    padding-top: 5px;
+  }
   .one__project .social__title{
     font-family: 'Montserrat';
 font-style: normal;
@@ -199,14 +252,40 @@ font-size: 14px;
 line-height: 170.66%;
 color: #FFFFFF;
   }
-.social__wrapper{
-    display: flex;
-    align-items:center;
-    padding-top: 193px;
+  .one__project .header__title h1{
+    width: 600px;
   }
-  .social__imgs{
+  .one__project .header__block {
+    margin-left: 0;
+    margin-top: 66px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    padding-left: 118px;
+    width: 470px;
+    margin-left: -3px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.one__project .header__info-wrapper {
+  padding-left: 132px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.one project .social__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 201px;
+  margin-left: -24px;
+}
+  .one__project .social__imgs{
+    display: flex;
+    padding-left: 110px;
   }
   .social__img{
     margin-right: 8px;
@@ -343,3 +422,6 @@ margin-top: 16px;
   .perfect{
     border-top: 1px solid #000;
   }
+  .one__project .list__item:first-child {
+    display: block;
+}

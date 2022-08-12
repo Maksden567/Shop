@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css?_v=20220811124344"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css?_v=20220812105534"
   />
-    <link rel="stylesheet" href="css/style.min.css?_v=20220811124344">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220812105534">
     <title>Главная</title>
 </head>
     <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220811124344"/>
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220812105534"/>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220811124344"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220812105534"></script>
 <body class="one">
     <header class="header">
 
@@ -172,7 +172,7 @@
         </section>
         <section class="one__info">
             <div class="container">
-                <div class="one__inner  one__inner-pt one__wrapper-margin">
+                <div class="one__inner one__inner1 one__inner-pt one__wrapper-margin">
                     <div class="one__inner-title">Duis laoreet finibus consectetur.  </div>
                     <div class="one__inner-subtitle">Duis laoreet finibus consectetur. Nullam pulvinar ex sit amet leo gravida, sed mattis enim vehicula. Duis purus nisl, consectetur ut est non, placerat eleifend turpis. Duis auctor suscipit arcu. Aenean leo est, rutrum a eleifend eget, tempor nec urna. Proin finibus lobortis arcu dictum convallis. Ut fermentum eu magna vel laoreet. In lacus augue, malesuada id elit sit amet, varius imperdiet ex. Nullam blandit lobortis posuere:</div>
                     <ul class="one__list">
@@ -197,7 +197,7 @@
            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <picture><source srcset="./img/kitchen1.webp" type="image/webp"><img src="./img/kitchen1.png" alt=""></picture>
+                    <picture><source srcset="./img/kitchen1.webp" type="image/webp"><img class=" kitchen"src="./img/kitchen1.png" alt=""></picture>
                 <div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
             <div class="data">01 January 2019</div></div>
             <div class="swiper-slide">
@@ -206,28 +206,16 @@
         <div class="data">01 January 2019</div></div>
              
         <div class="swiper-slide ">
-            <picture><source srcset="./img/kitchen.webp" type="image/webp"><img  class="swiper-slide--mr"src="./img/kitchen.png" alt=""></picture>
+            <picture><source srcset="./img/kitchen.webp" type="image/webp"><img  class="swiper-slide--mr hall"src="./img/kitchen.png" alt=""></picture>
         <div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
     <div class="data">01 January 2019</div></div>
          
     <div class="swiper-slide">
-        <picture><source srcset="./img/company-img1.webp" type="image/webp"><img class="swiper-slide--mr"src="./img/company-img1.png" alt=""></picture>
+        <picture><source srcset="./img/company-img1.webp" type="image/webp"><img class="swiper-slide--mr swiper-slide--mr2"src="./img/company-img1.png" alt=""></picture>
     <div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
 <div class="data">01 January 2019</div></div>
      
-<div class="swiper-slide">
-    <picture><source srcset="./img/company-img1.webp" type="image/webp"><img src="./img/company-img1.png" alt=""></picture>
-<div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
-<div class="data">01 January 2019</div></div>
-<div class="swiper-slide">
-    <picture><source srcset="./img/hall.webp" type="image/webp"><img src="./img/hall.png" alt=""></picture>
-<div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
-<div class="data">01 January 2019</div></div>
- 
-<div class="swiper-slide">
-<picture><source srcset="./img/kitchen.webp" type="image/webp"><img src="./img/kitchen.png" alt=""></picture>
-<div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
-<div class="data">01 January 2019</div></div>
+
 
                 </div>
               
@@ -319,13 +307,25 @@
     </div>
 </div>
 </footer>
+    <script src="./js/app.min.js?_v=20220812105534"></script>
     <script>
+        let screenWidth=screen.width
+        let number=0
+        let mr=0
+ screenWidth<=1024? number=3:number=4
+ screenWidth<=1024? mr=3:mr=38
+ screenWidth<=850? number=2:null
+ screenWidth<=420? number=1:null
+ screenWidth<=420? mr=0:mr=38
+
         var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 4,
-          spaceBetween: 38,
+        slidesPerView:number,
+          spaceBetween: mr,
           centeredSlides: true,
           
         });
+       
       </script>
+
 </body>
 </html>

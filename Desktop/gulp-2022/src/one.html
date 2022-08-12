@@ -8,7 +8,105 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <body class="one">
-    @@include('html/header.html',{})
+    <header class="header">
+
+        <div class="container">
+            <div class="header__wrapper">
+              <div class="header__top">
+                 <div class="header__left">
+              <div class="logo">LOGO</div>
+              <nav>
+                 <div class="bg-black">
+                     <div class="overlay">
+                      <div class="menu__pagination">
+                       <img  class="burger-btn1"src="./img/burger-close.png" alt="">
+                       <img  class="burger-btn"src="./img/burger.png" alt="">
+                 <div class="menu__title">Menu</div>
+                 </div>
+                 </div>
+                 </div>
+                
+               
+              
+                 <ul class="list">
+                    <li class="list__item"><a  class="list__link" href="../home.html">Home</a></li>
+                    <li class="list__item"><a  class="list__link" href="../projects.html">Projects</a></li>
+                    <li class="list__item2 list__item"><a  class="list__link" href="../about.html">About us</a></li>
+                    <li class="list__item3 list__item"><a  class="list__link" href="../news.html">Blog</a></li>
+                    <li class="list__item"><a  class="list__link" href="../contact.html">Contacts</a></li>
+                 </ul>
+              </nav>
+           </div>
+           <div class="header__right">
+              <div class="laungrech">En</div>
+              <button class="header__right-btn">Send Request</button>
+           </div>
+              </div>
+           <div class="header__bottom">
+              <div class="header__title">
+                 <h1>Thoughtful making of space</h1>
+              </div>
+              <div class="header__block">
+                 <div class="header__subtitle">
+                    <span class="line"></span>
+                    <p>Discover more</p>
+                    <span></span>
+                 </div>
+                 <div class="header__pagination">
+                    <img class=" swiper-button-prev" src="../img/left.png" alt="">
+                    <div class="pagination__number">02</div>
+                    <span></span>
+                  
+                    <div class="pagination__number">04</div>
+                      <img class="swiper-button-next" src="../img/right.png" alt="">
+                 </div>
+              </div>
+                
+           </div>
+           <div class="header__info">
+                <div class="social">
+                    <div class="social__item">
+                       <a href="" class="social__link">Fb</a>
+                    </div>
+                    <div class="social__item">
+                       <a href="" class="social__link">In</a>
+                    </div>
+                    <div class="social__item">
+                       <a href="" class="social__link">Be</a>
+                    </div>
+                 </div>
+                 <div class="select">
+                    <img src="../img/mark.png" alt="">
+                    <select name="Berlin" id="">
+                       <option class="select__option" value="Berlin">Berlin</option>
+                    </select>
+                 </div>
+                 <div class="tel">
+                   <a href="tel:+380983527547">+380983527547</a>
+                 </div>
+                 <div class="email">
+                    <a href="#">E: <span>info@gmail.com</span></a>
+                  </div>
+           </div>
+           <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../img/header__bg1.png" alt=""></div>
+              
+                <div class="swiper-slide"><img src="../img/header__bg2.png" alt=""></div></div>
+              
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+                   
+              </div>
+              
+           </div>
+         
+           <div class="header__text"><span>Next Project</span><h2>Perfect  proportions</h2>
+             </div>
+        </div>
+       </div>
+     </header>
     <main class="one__main">
         <div class="container">
             <div class="one__wrapper">
@@ -23,7 +121,7 @@
                 <ul class="social__items">
              <li class="social__item"><a href="#"><img src="./img/facebook.png" alt=""></a></li>
              <li class="social__item"><a href="#"><img src="./img/twitter.png" alt=""></a></li>
-             <li class="social__item"><a href="#"><img src="./img/In.png" alt=""></a></li>
+             <li class="social__item"><a href="#"><img src="./img/oneIn.png" alt=""></a></li>
              <li class="social__item"><a href="#"><img src="./img/social.png" alt=""></a></li>
                  </ul>
            </div>
@@ -66,8 +164,8 @@
         </section>
         <section class="one__info">
             <div class="container">
-                <div class="one__inner one__wrapper-margin">
-                    <div class="one__inner-title">Donec et ipsum nec quam posuere maximus eu in erat. Duis laoreet finibus consectetur. </div>
+                <div class="one__inner one__inner1 one__inner-pt one__wrapper-margin">
+                    <div class="one__inner-title">Duis laoreet finibus consectetur.  </div>
                     <div class="one__inner-subtitle">Duis laoreet finibus consectetur. Nullam pulvinar ex sit amet leo gravida, sed mattis enim vehicula. Duis purus nisl, consectetur ut est non, placerat eleifend turpis. Duis auctor suscipit arcu. Aenean leo est, rutrum a eleifend eget, tempor nec urna. Proin finibus lobortis arcu dictum convallis. Ut fermentum eu magna vel laoreet. In lacus augue, malesuada id elit sit amet, varius imperdiet ex. Nullam blandit lobortis posuere:</div>
                     <ul class="one__list">
                         <li class="one__list-item"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
@@ -76,7 +174,7 @@
                         <li class="one__list-item"> Donec et ipsum nec quam posuere maximus eu in erat. </li>
                         <li class="one__list-item"> Duis laoreet finibus consectetur.  </li>
                     </ul>
-                    <div class="one__inner-subtitle">Mauris eget ornare est. Morbi metus justo, posuere vel semper semper, eleifend ut purus. Morbi cursus consequat nibh, a feugiat felis tempor vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sodales orci nisl, in lacinia risus rhoncus a. </div>
+                    <div class="one__inner-subtitle one__inner-subtitle--info">Mauris eget ornare est. Morbi metus justo, posuere vel semper semper, eleifend ut purus. Morbi cursus consequat nibh, a feugiat felis tempor vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam sodales orci nisl, in lacinia risus rhoncus a. </div>
                     <div class="line"></div>
                 </div>
             </div>
@@ -91,7 +189,7 @@
            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <img src="./img/kitchen1.png" alt="">
+                    <img class=" kitchen"src="./img/kitchen1.png" alt="">
                 <div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
             <div class="data">01 January 2019</div></div>
             <div class="swiper-slide">
@@ -99,29 +197,17 @@
             <div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
         <div class="data">01 January 2019</div></div>
              
-        <div class="swiper-slide">
-            <img src="./img/kitchen.png" alt="">
+        <div class="swiper-slide ">
+            <img  class="swiper-slide--mr hall"src="./img/kitchen.png" alt="">
         <div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
     <div class="data">01 January 2019</div></div>
          
     <div class="swiper-slide">
-        <img src="./img/company-img1.png" alt="">
+        <img class="swiper-slide--mr swiper-slide--mr2"src="./img/company-img1.png" alt="">
     <div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
 <div class="data">01 January 2019</div></div>
      
-<div class="swiper-slide">
-    <img src="./img/company-img1.png" alt="">
-<div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
-<div class="data">01 January 2019</div></div>
-<div class="swiper-slide">
-    <img src="./img/hall.png" alt="">
-<div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
-<div class="data">01 January 2019</div></div>
- 
-<div class="swiper-slide">
-<img src="./img/kitchen.png" alt="">
-<div class="swiper__slide-title">Antrax IT - Italian factory for the production of radiators</div>
-<div class="data">01 January 2019</div></div>
+
 
                 </div>
               
@@ -130,13 +216,25 @@
         </section>
     </main>
     @@include('html/footer.html',{})
+    <script src="./js/app.min.js"></script>
     <script>
+        let screenWidth=screen.width
+        let number=0
+        let mr=0
+ screenWidth<=1024? number=3:number=4
+ screenWidth<=1024? mr=3:mr=38
+ screenWidth<=850? number=2:null
+ screenWidth<=420? number=1:null
+ screenWidth<=420? mr=0:mr=38
+
         var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 4,
-          spaceBetween: 38,
+        slidesPerView:number,
+          spaceBetween: mr,
           centeredSlides: true,
           
         });
+       
       </script>
+
 </body>
 </html>
