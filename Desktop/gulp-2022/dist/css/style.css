@@ -2019,11 +2019,12 @@
   color: #080808;
 }
 
-.gall {
+.one__project .gall {
   margin-top: 0;
   height: 800px;
   background: #000;
-  padding-top: 350px;
+  padding-top: 308px;
+  padding-left: 61px;
 }
 
 .one__project .gallery {
@@ -2032,7 +2033,8 @@
 
 .perfect {
   background: #000;
-  height: 600px;
+  height: 606px;
+  margin-top: -88px;
 }
 
 .perfect__text {
@@ -2074,7 +2076,9 @@
 
 .one__footer-image img {
   margin: 0 auto;
-  height: 600px;
+  margin-top: -121px;
+  width: 1312px;
+  height: 648px;
 }
 
 .gall {
