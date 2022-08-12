@@ -5166,6 +5166,48 @@ footer .social {
     margin-left: -2px;
   }
 
+  .one__project-wrap {
+    padding-left: 106px;
+    padding-top: 124px;
+  }
+
+  .one__proj-subtitle {
+    width: 600px;
+    margin-top: 14px;
+  }
+
+  .one__project-items {
+    padding: 124px 0;
+  }
+
+  .one__project-item:nth-child(2) {
+    width: 452px;
+  }
+
+  .one__project-item:nth-child(3) {
+    width: 452px;
+  }
+
+  .one__wrapper-btn {
+    text-align: center;
+    width: 100%;
+    margin-top: 57px;
+  }
+
+  .one__project .gallery__title {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 142.4%;
+    text-align: center;
+    color: #fff;
+    top: -170px;
+    width: 360px;
+    left: 79px;
+  }
+
   .about__main-wrapper {
     background: url(../img/about__bg.png);
     height: 648px;
