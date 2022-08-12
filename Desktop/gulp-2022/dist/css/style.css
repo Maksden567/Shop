@@ -1652,6 +1652,10 @@
   color: #ffffff;
 }
 
+.one__project .header__title h1 br {
+  display: none;
+}
+
 .header__right-btn {
   padding: 17px 48px;
   font-family: "Montserrat";
@@ -5046,6 +5050,120 @@ footer .social {
     display: flex;
     width: 100%;
     height: 553px;
+  }
+
+  .one__project .header {
+    background: url(../img/header-bg1.png);
+    height: 705px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .one__project .container {
+    width: 916px;
+  }
+
+  .header__block {
+    width: 870px;
+  }
+
+  .header__pagination {
+    padding-right: 139px;
+  }
+
+  .header__text {
+    left: 851px;
+  }
+
+  .one__project .header__right-btn {
+    padding: 14px 35px 14px 36px;
+    margin-top: -6px;
+    margin-left: -16px;
+    margin-right: 7px;
+  }
+
+  .one__project .laungrech {
+    margin-right: 69px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    color: #fff;
+    margin-top: -9px;
+  }
+
+  .one__project .logo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 5px;
+  }
+
+  .one__project .menu-pagination {
+    display: block;
+  }
+
+  .one__project .menu__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 99px;
+    margin-top: 3px;
+  }
+
+  .one__project .header__title h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+    width: 452px;
+  }
+
+  .one__project .header__title h1 br {
+    display: block;
+  }
+
+  .one__project .header__bottom {
+    margin-left: 108px;
+    padding-top: 5px;
+  }
+
+  .one__project .header__top {
+    margin-bottom: 160px;
+  }
+
+  .one__project .header__block {
+    margin-top: 100px;
+  }
+
+  .one__project .header__info-wrapper {
+    padding-left: 101px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .one__project .header__info {
+    margin-top: 50px;
+  }
+
+  .one__project .social__imgs {
+    padding-left: 58px;
+  }
+
+  .one__project .social__wrapper {
+    margin-top: 177px;
+    margin-left: -2px;
   }
 
   .about__main-wrapper {
