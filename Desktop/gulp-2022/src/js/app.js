@@ -72,5 +72,7 @@ closeBtn.addEventListener('click',function(){
  window.location.pathname=="/news.html"  && screen.width<=1024 ? footer.style.background="url(../img/bg__1024.png)":null
  window.location.pathname=="/news.html"  && screen.width<=850 ? footer.style.background="url(../img/bg__768.png)":null
 
-
+window.location.pathname=="/one__project.html" && screen.width<=1024 ?header.style.background="url(../img/one__project1024.png)":null
+window.location.pathname=="/one__project.html" && screen.width<=850 ?header.style.background="url(../img/one__project850.png)":null
+window.location.pathname=="/one__project.html" && screen.width<=850 ?header.style.height="961px":null
 

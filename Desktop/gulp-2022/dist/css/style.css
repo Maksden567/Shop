@@ -6146,6 +6146,50 @@ footer .social {
     padding-left: 31px;
   }
 
+  .one__project-wrap {
+    padding-left: 79px;
+    padding-top: 103px;
+  }
+
+  .one__proj-subtitle {
+    width: 520px;
+    margin-top: 20px;
+    margin-bottom: 46px;
+  }
+
+  .one__project-items {
+    padding: 101px 0;
+  }
+
+  .one__project-item:nth-child(2) {
+    width: 334px;
+  }
+
+  .one__project-item:nth-child(3) {
+    width: 334px;
+  }
+
+  .one__wrapper-btn {
+    text-align: center;
+    width: 100%;
+    margin-top: 45px;
+  }
+
+  .one__project-btn {
+    cursor: pointer;
+    background: 0 0;
+    padding: 17px 50px;
+    border: 1pxsolidrgba 8, 8, 8, 0.32;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #080808;
+    margin-left: -8px;
+  }
+
   .contact .logo {
     margin-top: -14px;
     margin-left: 10px;

@@ -67,6 +67,9 @@
   letter-spacing: 0.06em;
   color: #ffffff;
   }
+  .one__project .header__title h1 br{
+    display: none;
+  }
   .header__right-btn {
     padding: 17px 48px;
     font-family: 'Montserrat';
@@ -226,8 +229,11 @@
     padding-left: 141px;
     display: flex;
   }
-  .one__project.header__info-item{
+  .one__project .header__info-item{
     margin-right: 30px;
+  }
+  .one__project .header__info-item:nth-child(2){
+    margin-right: 27px;
   }
   .header__info-town{
     font-family: 'Montserrat';
@@ -308,11 +314,12 @@ line-height: 24px;
 color: #080808;
 opacity: 0.7;
 width: 715px; 
-margin-top: 17px;
-  margin-bottom: 40px;
+margin-top: 16px;
+  margin-bottom: 44px;
   }
   .one__project .header__subtitle {
   justify-content: flex-start;
+  margin-left: 7px;
  
   }
   .one__project .header__subtitle p{
@@ -331,8 +338,8 @@ color: #080808;
     background: rgba(49, 49, 49, 0.2);
   }
   .one__project-wrap{
-    padding-left: 150px;
-    padding-top: 140px;
+    padding-left: 135px;
+    padding-top: 135px;
   }
   .one__project-items{
     padding: 140px 0;
@@ -349,7 +356,7 @@ color: #080808;
   .one__wrapper-btn{
     text-align: center;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 71px;
   }
   .one__project-btn{
     cursor: pointer;
@@ -364,11 +371,12 @@ line-height: 13px;
 text-align: center;
 color: #080808;
   }
-  .gall{
+  .one__project .gall{
     margin-top: 0;
     height: 800px;
     background: #000;
-    padding-top: 350px;
+    padding-top: 308px;
+    padding-left: 61px;
   }
   .one__project .gallery{
      margin-top: 0;
@@ -376,7 +384,9 @@ color: #080808;
  
   .perfect{
     background: #000;
-    height: 600px;
+    height: 606px;
+    margin-top: -88px;
+
   }
   .perfect__text{
     text-align: center;
@@ -414,7 +424,9 @@ margin-top: 16px;
   }
   .one__footer-image img{
     margin: 0 auto;
-    height: 600px;
+    margin-top: -121px;
+    width: 1312px;
+    height: 648px;
   }
   .gall{
     border-bottom: 1px solid #000;
@@ -424,4 +436,265 @@ margin-top: 16px;
   }
   .one__project .list__item:first-child {
     display: block;
+}
+
+@media  screen and (max-width:1024px) {
+  .one__project .header {
+    background: url(../img/header-bg1.png);
+    height: 705px;
+    background-size: cover;
+    background-position: center;
+}
+  .one__project .container{
+    width: 916px;
+  }
+  .header__block{
+    width: 870px;
+  }
+  .header__pagination{
+    padding-right: 139px;
+  }
+  .header__text{
+    left: 851px;
+  }
+  .one__project .header__right-btn {
+    padding: 14px 35px 14px 36px;
+    margin-top: -6px;
+    margin-left: -16px;
+    margin-right: 7px;
+}
+.one__project .laungrech {
+  margin-right: 69px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: .06em;
+  color: #fff;
+  margin-top: -9px;
+}
+.one__project .logo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 5px;
+}
+.one__project .menu-pagination{
+  display: block;
+}
+.one__project{
+  .menu__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 99px;
+    margin-top: 3px;
+}
+}
+.one__project .header__title h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #fff;
+  width: 452px;
+}
+.one__project .header__title h1 br{
+  display: block;
+}
+.one__project .header__bottom {
+  margin-left: 108px;
+  padding-top: 5px;
+}
+.one__project .header__top{
+  margin-bottom: 160px;
+}
+.one__project .header__block {
+  margin-top: 100px;
+}
+.one__project .header__info-wrapper {
+  padding-left: 101px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.one__project .header__info{
+  margin-top: 50px;
+}
+.one__project .social__imgs {
+  padding-left: 58px;
+}
+.one__project .social__wrapper {
+  margin-top: 177px;
+  margin-left: -2px;
+}
+.one__project-wrap {
+  padding-left: 106px;
+  padding-top: 124px;
+}
+.one__proj-subtitle {
+  width: 600px;
+ margin-top: 14px;
+}
+.one__project-items {
+  padding: 124px 0;
+}
+.one__project-item:nth-child(2){
+  width: 452px;
+}
+.one__project-item:nth-child(3){
+  width: 452px;
+}
+.one__wrapper-btn {
+  text-align: center;
+  width: 100%;
+  margin-top: 57px;
+}
+.one__project .gallery__title {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 142.4%;
+  text-align: center;
+  color: #fff;
+  top: -170px;
+  width: 360px;
+  left: 79px;
+}
+.one__project .gallery__subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  width: 461px;
+  text-align: center;
+  color: #fff;
+  left: 32px;
+  top: -10px;
+}
+.one__project .gallery__btn {
+  left: 172px;
+  top: 128px;
+}
+.one__project .perfect__title{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+/* 4 */
+
+color: #FFFFFF;
+}
+.one__project .gall {
+  margin-top: 0;
+  height: 693px;
+  background: #000;
+  padding-top: 308px;
+  padding-left: 61px;
+}
+.one__footer-image img {
+  margin: 0 auto;
+  margin-top: -379px;
+  width: 912px;
+  height: 419px;
+}
+.one__project .bg{
+  display: none;
+}
+.one__footer-image {
+  width: 100%;
+  position: absolute;
+  top: 4127px;
+}
+}
+@media screen and(max-width:850px) {
+  .one__project .container{
+    width: 679px;
+  }
+  .one__project .menu__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 87px;
+    margin-top: 8px;
+}
+.one__project .logo {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+.one__project .header__bottom {
+  margin-left: 82px;
+  padding-top: 139px;
+}
+.one__project .header__info {
+  margin-top: 36px;
+  margin-left: -41px;
+}
+.one__project .social__wrapper {
+  margin-top: 313px;
+  margin-left: 23px;
+  
+}
+.one__project .social__imgs {
+  padding-left: 31px;
+}
+.one__project-wrap {
+  padding-left: 79px;
+  padding-top: 103px;
+}
+.one__proj-subtitle {
+  width: 520px;
+  margin-top: 20px;
+  margin-bottom: 46px;
+}
+.one__project-items {
+  padding: 101px 0;
+}
+.one__project-item:nth-child(2) {
+  width: 334px;
+}
+.one__project-item:nth-child(3) {
+  width: 334px;
+}
+.one__wrapper-btn {
+  text-align: center;
+  width: 100%;
+  margin-top: 45px;
+}
+.one__project-btn {
+  cursor: pointer;
+  background: 0 0;
+  padding: 17px 50px;
+  border: 1pxsolidrgba(8,8,8,.32);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  color: #080808;
+  margin-left: -8px;
+}
 }

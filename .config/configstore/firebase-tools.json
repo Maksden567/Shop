@@ -1,0 +1,41 @@
+{
+	"analytics-uuid": "f51cdc82-d9c0-4a05-9d5f-c52413641481",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1658767039196
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "101125396706382071229",
+		"email": "babadid346@gmail.com",
+		"email_verified": true,
+		"at_hash": "k8EIta41xhoGeNwAyVDlgg",
+		"iat": 1656669025,
+		"exp": 1656672625
+	},
+	"tokens": {
+		"expires_at": 1658770647080,
+		"refresh_token": "1//0cuZZIG0qYDGGCgYIARAAGAwSNwF-L9Irot1TVZg7kbvIZw3KIoGdKZmvWFmRj8bzD6wc9K0yCFNPIjxmDIbOgsnpnD-ecK3ZddA",
+		"scopes": [],
+		"access_token": "ya29.A0AVA9y1t1BzgxnRFv9A51KR0QnZJF_P7wO5qT2PksuRBFMJGYSbELsWjLXHONIdDWNbc3m5VetN7MVpcxVBsvm-nVehDcWhcUAbCvfah98ZVs5XD0JNeABwUYgBAGULihMaz_-TVRFnyzlwvA_tNse8TzCuFYm4nT43K9nQYUNnWUtBVEFTQVRBU0ZRRTY1ZHI4b1pTaG1Ob3gwby1QMzMtbVRnN2FQdw0173",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/firebase openid",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjA3NGI5MjhlZGY2NWE2ZjQ3MGM3MWIwYTI0N2JkMGY3YTRjOWNjYmMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAxMTI1Mzk2NzA2MzgyMDcxMjI5IiwiZW1haWwiOiJiYWJhZGlkMzQ2QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiX3Y1ZFhWc0N4RUxiYklxazhlckpHUSIsImlhdCI6MTY1ODY4MDgxNiwiZXhwIjoxNjU4Njg0NDE2fQ.HJB3T1iiTl_UNPsV2CvVudkC7g0LfXEYAtYymGHtDNKtEzsx5cOOymasqRzsZFWDTMiNnnPlChFNG4MRTxTnmHcQmCRPMsKFyetwz6XuKkyJy5AtZvkJIY0Nw0SyTnTujNWH3xTr1zMI2KnaEYHbyVEE52jgspxC8o3-4oTa6Xoz96xYaguZL54dhiXGRpTmtIpxNlX-s_OQGKDDDQUSu4kXe1zZ2pzPbycw96RN2-Q1Bc1pmYtOIFdjkZugtJ3_Xo2091BHhplLFQ5gl4fh_p9CGOUUNkJJ-lRJHuH2ABt3NuylZ2a7YF56Wry7_W04PpAmQrZLIWDMNxybhLsYHQ"
+	},
+	"activeProjects": {
+		"C:\\Users\\makogon\\Desktop\\dist": "restart-906a1",
+		"C:\\Users\\makogon\\Desktop\\gulp-2022\\dist": "rest-43541",
+		"C:\\Users\\makogon\\Desktop\\test": "maps-354914",
+		"C:\\Users\\makogon\\Desktop\\testove": "landing-ada00"
+	}
+}
