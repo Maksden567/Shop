@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
-
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 .project {
@@ -6187,7 +6185,7 @@ footer .social {
     line-height: 13px;
     text-align: center;
     color: #080808;
-    margin-left: -8px;
+    margin-left: -7px;
   }
 
   .contact .logo {
