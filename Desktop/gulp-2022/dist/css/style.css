@@ -5208,6 +5208,60 @@ footer .social {
     left: 79px;
   }
 
+  .one__project .gallery__subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    width: 461px;
+    text-align: center;
+    color: #fff;
+    left: 32px;
+    top: -10px;
+  }
+
+  .one__project .gallery__btn {
+    left: 172px;
+    top: 128px;
+  }
+
+  .one__project .perfect__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* 4 */
+    color: #FFFFFF;
+  }
+
+  .one__project .gall {
+    margin-top: 0;
+    height: 693px;
+    background: #000;
+    padding-top: 308px;
+    padding-left: 61px;
+  }
+
+  .one__footer-image img {
+    margin: 0 auto;
+    margin-top: -379px;
+    width: 912px;
+    height: 419px;
+  }
+
+  .one__project .bg {
+    display: none;
+  }
+
+  .one__footer-image {
+    width: 100%;
+    position: absolute;
+    top: 4127px;
+  }
+
   .about__main-wrapper {
     background: url(../img/about__bg.png);
     height: 648px;
