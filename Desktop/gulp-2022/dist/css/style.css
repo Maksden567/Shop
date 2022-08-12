@@ -1850,8 +1850,12 @@
   display: flex;
 }
 
-.one__project.header__info-item {
+.one__project .header__info-item {
   margin-right: 30px;
+}
+
+.one__project .header__info-item:nth-child(2) {
+  margin-right: 27px;
 }
 
 .header__info-town {
@@ -1998,7 +2002,7 @@
 .one__wrapper-btn {
   text-align: center;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 71px;
 }
 
 .one__project-btn {
