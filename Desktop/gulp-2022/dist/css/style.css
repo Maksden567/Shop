@@ -454,6 +454,21 @@
   margin-top: 13px;
 }
 
+.projects .list__item {
+  margin-right: 49px;
+}
+
+.projects .laungrech {
+  margin-right: 81px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.06em;
+}
+
 .projects .project {
   padding-bottom: 415px;
 }
@@ -497,8 +512,8 @@
   line-height: 28px;
   color: #fff;
   position: absolute;
-  letter-spacing: -0.2px;
-  left: 31px;
+  left: 34px;
+  letter-spacing: -0.1px;
   top: 591px;
 }
 
@@ -516,7 +531,7 @@
 .projects .header__right-btn {
   border: 1px solid rgba(0, 0, 0, 0.32);
   color: #080808;
-  padding: 18px 45px 18px 48px;
+  padding: 17px 44px 16px 48px;
   margin-right: 16px;
 }
 
@@ -550,7 +565,7 @@
   line-height: 44px;
   color: #080808;
   padding-left: 135px;
-  padding-top: 6px;
+  padding-top: 4px;
 }
 
 .projects .main__subtitle {
@@ -559,9 +574,10 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
-  width: 460px;
+  width: 455px;
+  letter-spacing: -0.11px;
   color: #080808;
-  margin-left: 361px;
+  margin-left: 360px;
   margin-top: 25px;
 }
 
@@ -575,13 +591,13 @@
 }
 
 .projects .gallery__subtitle {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 300;
-  width: 340px;
+  left: 650px;
+  letter-spacing: px;
   font-size: 14px;
   line-height: 24px;
-  /* 1 */
   color: #080808;
 }
 
@@ -4483,6 +4499,11 @@ footer .social {
 }
 
 @media screen and (max-width: 1100px) {
+  .projects .logo {
+    color: #000;
+    margin-top: 0px;
+  }
+
   .projects .list {
     display: none;
   }
@@ -4490,6 +4511,11 @@ footer .social {
   .projects .header__wrapper {
     padding-top: 30px;
     padding-bottom: 24px;
+  }
+
+  .projects .project__item {
+    width: 453px;
+    height: 453px;
   }
 
   .projects .header__right-btn {
@@ -4536,8 +4562,8 @@ footer .social {
   }
 
   .projects .menu {
-    left: 109px;
-    top: 145px;
+    left: 104px;
+    top: 146px;
     margin-top: 20px;
   }
 
@@ -4547,6 +4573,7 @@ footer .social {
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
+    margin-right: 28px;
     line-height: 19px;
     color: #080808;
   }
@@ -4557,13 +4584,13 @@ footer .social {
   }
 
   .projects .main__title {
-    font-family: "Montserrat";
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
     color: #080808;
-    padding-left: 108px;
+    padding-left: 106px;
     padding-top: 8px;
   }
 
@@ -4573,22 +4600,21 @@ footer .social {
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
-    width: 449px;
+    width: 448px;
     color: #080808;
     margin-left: 106px;
-    margin-top: 13px;
-  }
-
-  .projects .project__item {
-    width: 453px;
-    height: 453px;
+    margin-top: 14px;
   }
 
   .projects .project__item .header__subtitle {
     display: block;
-    margin-top: -45px;
-    margin-left: 42px;
+    margin-top: -46px;
+    margin-left: 44px;
     width: 200px;
+  }
+
+  .projects .project__wrapper {
+    margin-left: 2px;
   }
 
   .projects .project__item3 {
@@ -4617,8 +4643,8 @@ footer .social {
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    top: 31px;
-    left: 37px;
+    top: 30px;
+    left: 35px;
   }
 
   .project__item-icon {
@@ -4634,6 +4660,19 @@ footer .social {
     color: #fff;
   }
 
+  .projects .project__item1 .project__item-icon:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 31px;
+    color: #fff;
+  }
+
   .projects .project__item1 .project__item-icon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4643,7 +4682,7 @@ footer .social {
     font-weight: 400;
     font-size: 10px;
     line-height: 17px;
-    margin-right: 25px;
+    margin-right: 26px;
     color: #fff;
   }
 
@@ -4665,8 +4704,94 @@ footer .social {
     font-size: 20px;
     line-height: 126%;
     color: #FAFAFA;
-    left: 35px;
+    left: 33px;
     top: 355px;
+  }
+
+  .projects .project__item2 .project__item-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 29px;
+    left: 33px;
+  }
+
+  .projects .project__item2 .project__item-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 26px;
+    color: #fff;
+  }
+
+  .projects .project__item2 .header__subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -47px;
+    margin-left: 28px;
+    width: 200px;
+  }
+
+  .projects .project__item2 .header__subtitle .line {
+    margin-bottom: 0;
+  }
+
+  .projects .project__item2 .project__item-icon:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 31px;
+    color: #fff;
+  }
+
+  .projects .project__item3 .project__item-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 29px;
+    left: 34px;
+  }
+
+  .projects .project__item3 .project__item-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 21px;
+    color: #fff;
+  }
+
+  .projects .project__item3 .project__item-icon:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 22px;
+    color: #fff;
   }
 
   .projects .project__item3 .project__item-title1 {
@@ -4676,9 +4801,24 @@ footer .social {
     font-size: 20px;
     line-height: 126%;
     color: #fafafa;
-    left: 36px;
+    left: 32px;
     top: 374px;
     width: 260px;
+  }
+
+  .projects .project__item3 .header__subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -45px;
+    margin-left: 644px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .projects .project__item3 .header__subtitle .line {
+    margin-bottom: 0;
   }
 
   .projects .project__item9 .project__item-title1 {
@@ -4698,11 +4838,78 @@ footer .social {
     position: relative;
   }
 
-  .projects .delete__project-item .header__subtitle {
-    display: block;
-    margin-top: -45px;
-    margin-left: 40px;
+  .projects .delete__project-item2 .header__subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -46px;
+    margin-left: 34px;
     width: 200px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .projects .delete__project-item2 .header__subtitle .line {
+    margin-bottom: 0;
+  }
+
+  .projects .delete__project-item2 .project__item-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 29px;
+    left: 32px;
+  }
+
+  .projects .delete__project-item3 .project__item-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 29px;
+    left: 30px;
+  }
+
+  .projects .delete__project-item3 .project__item-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 26px;
+    color: #fff;
+  }
+
+  .projects .delete__project-item3 .project__item-title1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 126%;
+    color: #fafafa;
+    left: 29px;
+    top: 355px;
+  }
+
+  .projects .delete__project-item3 .header__subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -47px;
+    margin-left: 32px;
+    width: 200px;
+  }
+
+  .projects .delete__project-item3 .header__subtitle .line {
+    margin-bottom: 0;
   }
 
   .projects .project__item9 .header__subtitle {
@@ -4711,19 +4918,41 @@ footer .social {
     margin-left: 650px;
   }
 
+  .projects .project__item9 .project__item-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 29px;
+    left: 32px;
+  }
+
+  .projects .project__item9 .project__item-title1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 126%;
+    color: #fafafa;
+    left: 32px;
+    top: 374px;
+    width: 260px;
+  }
+
   .gallery__items {
     display: none;
   }
 
   .projects .gallery__title {
-    width: 353px;
-    font-family: "Montserrat";
+    width: 364px;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 142.4%;
     text-align: center;
     color: #080808;
+    left: 235px;
   }
 
   .projects .gallery {
@@ -4737,17 +4966,19 @@ footer .social {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 300;
-    width: 460px;
+    width: 455px;
     font-size: 14px;
     line-height: 24px;
+    letter-spacing: -0.11px;
     color: #080808;
-    top: -41px;
+    top: -42px;
+    left: 193px;
   }
 
   .projects .gallery__btn {
-    left: 332px;
+    left: 330px;
     top: 97px;
-    padding: 15px 47px;
+    padding: 14px 47px;
   }
 
   .projects .project {
@@ -7097,7 +7328,7 @@ footer .social {
   }
 
   .projects .main__title {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -7108,15 +7339,15 @@ footer .social {
   }
 
   .projects .main__subtitle {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 24px;
     width: 505px;
-    letter-spacing: 0.02px;
+    letter-spacing: -0.1px;
     color: #080808;
-    margin-left: 77px;
+    margin-left: 79px;
     margin-top: 13px;
   }
 
@@ -7127,11 +7358,11 @@ footer .social {
   }
 
   .projects .menu__item {
-    margin-right: 30px;
+    margin-right: 29px;
   }
 
   .projects .menu__item:nth-child(3) {
-    margin-right: 28px;
+    margin-right: 26px;
   }
 
   .projects .project {
@@ -7408,6 +7639,279 @@ footer .social {
 
   .projects .copyright img {
     margin-right: 6px;
+  }
+
+  .menu__item a {
+    letter-spacing: 0px;
+  }
+
+  .projects .menu__item {
+    margin-right: 32px;
+  }
+
+  .projects .menu__item:nth-child(3) {
+    margin-right: 33px;
+  }
+
+  .projects .project__item1 .project__item-icon:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 21px;
+    color: #fff;
+  }
+
+  .projects .project__item1 .project__item-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 21px;
+    color: #fff;
+  }
+
+  .projects .project__item .header__subtitle {
+    display: block;
+    margin-top: -46px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 35px;
+    width: 200px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .projects .project__item .header__subtitle .line {
+    margin-bottom: 0;
+  }
+
+  .projects .project__item2 .project__item-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 24px;
+    left: 33px;
+  }
+
+  .projects .project__item2 .project__item-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 22px;
+    color: #fff;
+  }
+
+  .projects .project__item2 .project__item-icon:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 22px;
+    color: #fff;
+  }
+
+  .projects .project__item2 .header__subtitle {
+    display: block;
+    margin-top: -51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 35px;
+    width: 200px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .project__item2 .header__subtitle p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 9px;
+    margin-left: 8.5px;
+    z-index: 1;
+  }
+
+  .projects .project__item3 .project__item-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 24px;
+    left: 34px;
+  }
+
+  .projects .project__item .header__subtitle {
+    display: block;
+    margin-top: -51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 35px;
+    width: 200px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .projects .project__item .header__subtitle {
+    display: block;
+    margin-top: -45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 35px;
+    width: 200px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .project__item3 .header__subtitle p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 9px;
+    margin-left: 8.5px;
+    z-index: 1;
+  }
+
+  .projects .delete__project-item2 .project__item-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 23px;
+    left: 34px;
+  }
+
+  .projects .delete__project-item2 .header__subtitle {
+    margin-top: -51px;
+  }
+
+  .projects .delete__project-item3 .project__item-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    margin-right: 22px;
+    color: #fff;
+  }
+
+  .projects .project__item2 .header__subtitle {
+    display: block;
+    margin-top: -51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 35px;
+    width: 200px;
+  }
+
+  .projects .project__item3 .header__subtitle {
+    display: block;
+    margin-top: -51px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 35px;
+    width: 200px;
+  }
+
+  .projects .project__item8 .project__item-title1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 126%;
+    color: #fafafa;
+    left: 31px;
+    letter-spacing: -0.6px;
+    left: 36px;
+    top: 575px;
+  }
+
+  .projects .project__item9 .project__item-title1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 126%;
+    color: #fafafa;
+    left: 33px;
+    top: 575px;
+    width: 307px;
+  }
+
+  .projects .project__item9 .project__item-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 29px;
+    left: 34px;
+  }
+
+  .projects .gallery__title {
+    top: -224px;
+    left: 113px;
+    width: 375px;
+  }
+
+  .projects .gallery__subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    width: 459px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #080808;
+    top: -62px;
+    left: 72px;
+  }
+
+  .projects .copyright__right p {
+    margin-right: 9px;
+  }
+
+  .projects .laungrech {
+    margin-top: -11px;
+    margin-right: 85px;
   }
 
   .news .header__wrapper {
@@ -8113,7 +8617,7 @@ footer .social {
 
   .projects .laungrech {
     margin-top: -9px;
-    margin-right: 97px;
+    margin-right: 96px;
   }
 
   .projects .burger-btn {
@@ -8126,7 +8630,7 @@ footer .social {
     font-size: 26px;
     line-height: 32px;
     color: #080808;
-    padding-left: 0;
+    padding-left: 3px;
   }
 
   .projects .main__subtitle {
@@ -8178,10 +8682,15 @@ footer .social {
   }
 
   .projects .project__item1 .header__subtitle {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: -35px;
     margin-left: 30px;
     width: 200px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .projects .project__item2 .project__item-title1 {
@@ -8191,15 +8700,20 @@ footer .social {
     font-size: 20px;
     line-height: 126%;
     color: #fafafa;
-    left: 25px;
+    left: 22px;
     top: 256px;
     width: 315px;
   }
 
   .projects .project__item2 .header__subtitle {
-    display: block;
-    margin-top: -36px;
-    margin-left: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -35px;
+    margin-left: 27px;
     width: 200px;
   }
 
@@ -8251,24 +8765,51 @@ footer .social {
   }
 
   .projects .project__item8 .header__subtitle {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: -35px;
-    margin-left: 29px;
+    margin-left: 26px;
     width: 200px;
   }
 
   .projects .project__item9 .header__subtitle {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: -35px;
-    margin-left: 29px;
+    margin-left: 26px;
     width: 200px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .projects .project__item3 .header__subtitle {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: -35px;
-    margin-left: 34px;
+    margin-left: 26px;
     width: 200px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .projects .project__item1 .header__subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -35px;
+    margin-left: 27px;
+    width: 200px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .projects .project__item8 .project__item-icons {
@@ -8351,7 +8892,7 @@ footer .social {
     line-height: 32px;
     width: 297px;
     color: #080808;
-    left: 109px;
+    left: 112px;
   }
 
   .projects .gallery__subtitle {
@@ -8361,7 +8902,7 @@ footer .social {
   }
 
   .projects .gallery__btn {
-    left: 110px;
+    left: 111px;
     top: 21px;
     padding: 13px 47px;
   }
@@ -8380,8 +8921,8 @@ footer .social {
   }
 
   .projects .copyright img {
-    margin-left: 18px;
-    margin-top: -22px;
+    margin-left: 15px;
+    margin-top: -20px;
   }
 
   .projects .delete__project-item2 .project__item8-img2 {
