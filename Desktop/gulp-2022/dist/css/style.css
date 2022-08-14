@@ -2176,7 +2176,7 @@
 
 .about .list {
   margin-top: 6px;
-  margin-left: 138px;
+  margin-left: 140px;
 }
 
 .about .list__link {
@@ -2186,14 +2186,22 @@
 .about .laungrech {
   color: #080808;
   margin-top: -8px;
-  margin-right: 84px;
+  margin-right: 82px;
 }
 
 .about .header__right-btn {
-  border: 1px solid rgba(0, 0, 0, 0.32);
-  color: #080808;
-  margin-top: -7px;
-  margin-right: 9px;
+  padding: 18px 48px 18px 46px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  background: 0 0;
+  text-align: right;
+  letter-spacing: 0.06em;
+  z-index: 1;
+  border: 1pxsolidrgba 253, 253, 253, 0.32;
+  margin-right: 14px;
 }
 
 .about .header__left {
@@ -2222,6 +2230,10 @@
 
 .about__main {
   margin-top: -70px;
+}
+
+.about .list__item {
+  margin-right: 49px;
 }
 
 .about__main-wrapper {
@@ -2266,6 +2278,7 @@
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
+  letter-spacing: -0.1px;
   line-height: 24px;
   text-align: center;
   width: 383px;
@@ -2290,12 +2303,13 @@
 }
 
 .about__slider-subtitle {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
-  width: 383px;
+  width: 371px;
+  letter-spacing: -0.11px;
   color: #080808;
   padding-top: 10px;
   padding-bottom: 42px;
@@ -2314,6 +2328,7 @@
 
 .about .pagination__number {
   color: #828282;
+  margin-right: 15px;
 }
 
 .about__slider {
@@ -2374,13 +2389,13 @@
       flex-wrap: wrap;
   margin-left: 132px;
   width: 368px;
-  margin-top: 100px;
+  margin-top: 104px;
 }
 
 .about__info-item {
   width: 139px;
   margin-right: 40px;
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 }
 
 .about__info-number {
@@ -2399,6 +2414,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 132%;
+  margin-left: 2px;
   color: #080808;
 }
 
@@ -2422,6 +2438,8 @@
   height: 216px;
   right: 0;
   top: 430px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about__info-item:last-child {
@@ -2452,6 +2470,7 @@
   width: 167px;
   margin-top: 23px;
   margin-bottom: 53px;
+  margin-left: 2px;
 }
 
 .person__text {
@@ -2536,6 +2555,7 @@
   width: 81px;
   margin-top: 6px;
   color: #080808;
+  letter-spacing: -0.12px;
 }
 
 .person__item-subtitle2 {
@@ -2572,13 +2592,14 @@
 .about .lorem__title {
   color: #FFFFFF;
   margin-left: -32px;
+  margin-top: 11px;
 }
 
 .about .lorem__subtitle {
-  color: #FFFFFF;
+  color: #fff;
   opacity: 0.6;
-  margin-left: -2px;
-  margin-top: 14px;
+  margin-left: 6px;
+  margin-top: 18px;
 }
 
 .about .gallery__name {
@@ -2590,7 +2611,7 @@
 }
 
 .about .footer__wrapper {
-  padding: 144px 131px 134px 139px;
+  padding: 142px 131px 134px 136px;
   margin-bottom: -24px;
 }
 
@@ -2652,7 +2673,7 @@
 
 .about .footer__news-subtitle {
   width: 366px;
-  margin-top: 13px;
+  margin-top: 15px;
   margin-right: 22px;
 }
 
@@ -9668,6 +9689,7 @@ footer .social {
     top: 540px;
     left: 139px;
     border: 1px solid white;
+    color: white;
   }
 
   .header__right {
