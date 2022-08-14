@@ -599,6 +599,7 @@
   font-size: 14px;
   line-height: 24px;
   color: #080808;
+  width: 340px;
 }
 
 .projects .gallery__title {
@@ -1898,7 +1899,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 66px;
+  margin-top: 68px;
   margin-left: 4px;
 }
 
@@ -1923,7 +1924,7 @@
 }
 
 .one__project .header__info-item:nth-child(2) {
-  margin-right: 27px;
+  margin-right: 35px;
 }
 
 .header__info-town {
@@ -1938,8 +1939,13 @@
   margin-left: 12px;
 }
 
+.one__project .list {
+  margin-left: 143px;
+  margin-top: 26px;
+}
+
 .one__project .header__bottom {
-  margin-left: 139px;
+  margin-left: 137px;
   padding-top: 5px;
 }
 
@@ -1958,7 +1964,7 @@
 
 .one__project .header__block {
   margin-left: 0;
-  margin-top: 66px;
+  margin-top: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2009,15 +2015,16 @@
 }
 
 .one__proj-subtitle {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   color: #080808;
   opacity: 0.7;
-  width: 715px;
-  margin-top: 16px;
+  width: 718px;
+  margin-top: 15px;
+  letter-spacing: -0.11px;
   margin-bottom: 44px;
 }
 
@@ -2025,7 +2032,8 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-left: 7px;
+  margin-left: 9px;
+  margin-top: -1px;
 }
 
 .one__project .header__subtitle p {
@@ -2038,6 +2046,19 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #080808;
+}
+
+.one__project .gallery__subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23.89px;
+  color: #fff;
+  width: 340px;
+  position: absolute;
+  left: 653px;
+  top: 47px;
 }
 
 .one__project .header__subtitle span {
@@ -2075,10 +2096,11 @@
 
 .one__project-btn {
   cursor: pointer;
-  background: none;
-  padding: 17px 48px;
-  border: 1px solid rgba(8, 8, 8, 0.32);
-  font-family: "Montserrat";
+  background: 0 0;
+  padding: 17px 49px;
+  margin-left: 3px;
+  border: 1pxsolidrgba 8, 8, 8, 0.32;
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
@@ -2128,7 +2150,7 @@
   font-size: 36px;
   line-height: 44px;
   color: #FFFFFF;
-  margin-top: 16px;
+  margin-top: 12px;
 }
 
 .bg {
@@ -2389,13 +2411,18 @@
       flex-wrap: wrap;
   margin-left: 132px;
   width: 368px;
-  margin-top: 104px;
+  margin-top: 98px;
 }
 
 .about__info-item {
   width: 139px;
   margin-right: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
+}
+
+.about__info-item:nth-child(1) .about__info-subtitle,
+.about__info-item:nth-child(2) .about__info-subtitle {
+  margin-top: 6px;
 }
 
 .about__info-number {
@@ -5526,7 +5553,7 @@ footer .social {
   }
 
   .one__project .header__right-btn {
-    padding: 14px 35px 14px 36px;
+    padding: 14px 33px 14px 36px;
     margin-top: -6px;
     margin-left: -16px;
     margin-right: 7px;
@@ -5617,13 +5644,15 @@ footer .social {
   }
 
   .one__project-wrap {
-    padding-left: 106px;
-    padding-top: 124px;
+    padding-left: 104px;
+    padding-top: 123px;
   }
 
   .one__proj-subtitle {
     width: 600px;
     margin-top: 14px;
+    letter-spacing: -0.09px;
+    margin-bottom: 45px;
   }
 
   .one__project-items {
@@ -5672,6 +5701,21 @@ footer .social {
     top: -10px;
   }
 
+  .one__project .gallery__subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    width: 453px;
+    text-align: center;
+    color: #fff;
+    left: 34px;
+    letter-spacing: -0.15px;
+    top: -9px;
+  }
+
   .one__project .gallery__btn {
     left: 172px;
     top: 128px;
@@ -5683,6 +5727,7 @@ footer .social {
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
+    margin-top: 11px;
     /* 4 */
     color: #FFFFFF;
   }
@@ -5712,12 +5757,21 @@ footer .social {
     top: 4127px;
   }
 
+  .one__footer-image img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
   .one__inner {
     margin-top: 91px;
   }
 
   .one__inner1 {
     margin-top: 81px;
+  }
+
+  .perfect {
+    margin-top: -81px;
   }
 
   .about__main-wrapper {
@@ -6733,6 +6787,98 @@ footer .social {
     height: 100%;
     width: 100%;
     overflow: hidden;
+  }
+
+  .one__project .menu__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 89px;
+    margin-top: 13px;
+  }
+
+  .menu__pagination .menu__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    margin-left: 21px;
+    margin-top: -4px;
+    color: #fff;
+  }
+
+  .one__project .laungrech {
+    margin-right: 71px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    color: #fff;
+    margin-top: -9px;
+  }
+
+  .one__project .header__right-btn {
+    padding: 14px 33px 14px 36px;
+    margin-top: -8px;
+    margin-left: -16px;
+    margin-right: 7px;
+  }
+
+  .one__project .header__bottom {
+    margin-left: 82px;
+    padding-top: 141px;
+  }
+
+  .one__project .header__subtitle {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-left: 11px;
+    margin-top: -1px;
+  }
+
+  .one__project .gallery__title {
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 142.4%;
+    text-align: center;
+    color: #fff;
+    top: -184px;
+    width: 356p;
+    left: 13px;
+  }
+
+  .one__project .perfect__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 8px;
+    color: #fff;
+  }
+
+  .one__project .gallery__subtitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    width: 457px;
+    text-align: center;
+    color: #fff;
+    left: -35px;
+    top: -25px;
   }
 
   .contact .logo {
@@ -10693,13 +10839,14 @@ footer .social {
   }
 
   .one__project .header__title h1 {
-    font-family: "Montserrat";
+    font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
     width: 452px;
-    color: #FFFFFF;
+    letter-spacing: 0.02px;
+    color: #fff;
   }
 
   .one__project .header__top {
@@ -10755,12 +10902,12 @@ footer .social {
     line-height: 22px;
     width: 420px;
     color: #080808;
-    letter-spacing: -0.4px;
+    letter-spacing: -0.2px;
     width: 309px;
   }
 
   .one__proj-subtitle {
-    width: 322px;
+    width: 330px;
     margin-top: 20px;
     margin-bottom: 46px;
     margin-left: -2px;
@@ -10770,7 +10917,7 @@ footer .social {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    margin-left: 4px;
+    margin-left: 8px;
   }
 
   .one__project-items {
@@ -10780,6 +10927,10 @@ footer .social {
   .one__project-item {
     margin-right: 0;
     margin-bottom: 10px;
+  }
+
+  .one__project .head__subtitle p {
+    width: 327px;
   }
 
   .one__project-btn {
@@ -10795,7 +10946,7 @@ footer .social {
     line-height: 13px;
     text-align: center;
     color: #080808;
-    margin-left: -1px;
+    margin-left: 2px;
   }
 
   .one__wrapper-btn {
@@ -10811,7 +10962,7 @@ footer .social {
     text-align: left;
     color: #FFFFFF;
     top: -184px;
-    width: 295px;
+    width: 292px;
     left: -166px;
   }
 
@@ -10824,8 +10975,8 @@ footer .social {
     text-align: left;
     color: #fff;
     top: -215px;
-    width: 295px;
-    letter-spacing: -0.15px;
+    width: 292px;
+    letter-spacing: 0.04px;
     left: -166px;
   }
 
@@ -10836,7 +10987,7 @@ footer .social {
     font-size: 14px;
     line-height: 24px;
     text-align: center;
-    width: 332px;
+    width: 327px;
     text-align: left;
     color: #fff;
     left: -166px;
@@ -10861,11 +11012,12 @@ footer .social {
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
+    margin-top: 0;
     color: #F2F2F2;
   }
 
   .perfect__title {
-    margin-top: 2px;
+    margin-top: 0px;
   }
 
   .one__project .one__footer-image img {
