@@ -6,7 +6,7 @@
 
 // подключения компонентов страницы
 @import "./components/header";
-
+@import "./components/title";
 // тестовые стили, удалите их
 ul{
 	list-style: none;
@@ -21,3 +21,8 @@ a{
   position: relative;
   background: #fff;
 }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+

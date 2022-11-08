@@ -6,10 +6,12 @@
         border-bottom: 0.3px solid rgba(70, 163, 88, 0.5);
 
     }
-    &-input{
+
+    &-input {
         display: none;
     }
-    &-filter{
+
+    &-filter {
         display: none;
     }
 }
@@ -114,27 +116,32 @@
     }
 }
 
-.block{
+.block {
     display: none;
 }
+
 @media screen and (max-width:850px) {
-    .list{
+    .list {
         margin-left: 30px;
-        &-item{
+
+        &-item {
             margin-right: 27px;
             padding-bottom: 25px;
         }
-    
+
     }
 }
+
 @media screen and (max-width:755px) {
-    .nav{
+    .nav {
         display: none;
     }
-    .btn{
+
+    .btn {
         display: none;
     }
-    .header-input{
+
+    .header-input {
         display: block;
         max-width: 500px;
         width: 100%;
@@ -142,7 +149,8 @@
         position: relative;
         margin-left: 10px;
         margin-right: 10px;
-        input{
+
+        input {
             width: 100%;
             background: #F8F8F8;
             border-radius: 10px;
@@ -151,19 +159,21 @@
             padding-left: 41px;
             position: relative;
         }
-        input::placeholder{
-           
-                font-family: 'CeraPro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #A5A5A5;
-               
+
+        input::placeholder {
+
+            font-family: 'CeraPro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #A5A5A5;
+
         }
-       
+
     }
-    .header-input:before{
+
+    .header-input:before {
         content: "";
         width: 20px;
         height: 20px;
@@ -174,27 +184,31 @@
         z-index: 100;
         top: 11px;
     }
-    .header__wrapper{
+
+    .header__wrapper {
         padding-bottom: 15px;
     }
-    .header-filter{
+
+    .header-filter {
         display: block;
         height: 45px;
         width: 45px;
         background: linear-gradient(137.05deg, rgba(70, 163, 88, 0.45) -24.6%, #46A358 100%);
-box-shadow: 0px 10px 20px rgba(70, 163, 88, 0.3);
-border-radius: 14px;
-border: none;
-img{
-    max-width: 22px;
-    max-height: 22px;
-}
+        box-shadow: 0px 10px 20px rgba(70, 163, 88, 0.3);
+        border-radius: 14px;
+        border: none;
+
+        img {
+            max-width: 22px;
+            max-height: 22px;
+        }
     }
+
     :root {
         --size: 16.875rem;
-      }
-      
-      .block {
+    }
+
+    .block {
         position: relative;
         height: 95px;
         background: linear-gradient(143.28deg, #F4F4F4 -12%, #FAFAFA 106.59%);
@@ -203,10 +217,10 @@ img{
         bottom: 0px;
         width: 100%;
         display: flex;
-      }
-      
-      .block::before,
-      .block::after {
+    }
+
+    .block::before,
+    .block::after {
         content: '';
         position: absolute;
         bottom: -1rem;
@@ -214,42 +228,50 @@ img{
         height: 1.5rem;
         background-color: inherit;
         z-index: -1;
-      }
-      .blocks{
+    }
+
+    .blocks {
         background: white;
         width: 50%;
-        border-radius: 0 20px  0 0;
+        border-radius: 0 20px 0 0;
         overflow: hidden;
-       @include flex-all-center;
-        svg:first-child{
+        @include flex-all-center;
+
+        svg:first-child {
             margin-right: 52px;
         }
-        svg{
+
+        svg {
             fill: #D9D9D9;
-           
+
         }
-        &__img.active{
+
+        &__img.active {
             fill: #46A358;
         }
-      }
-      .blocks1{
+    }
+
+    .blocks1 {
         overflow: hidden;
         background: white;
         width: 92px;
         position: relative;
-        &-img{
+
+        &-img {
             margin-top: -20px;
             position: absolute;
             left: 44.5%;
             top: -13px;
             width: 80px;
             height: 80px;
-    }
         }
-      .blocks2{
+    }
+
+    .blocks2 {
         border-radius: 25px 0 0px 0px;
-      }
-      .ellipse {
+    }
+
+    .ellipse {
         margin-left: 50%;
         margin-top: -55px;
         width: 6em;
@@ -257,81 +279,104 @@ img{
         border-radius: 50%;
         background: linear-gradient(143.28deg, #F4F4F4 -12%, #FAFAFA 106.59%);
         transform: translateX(-50%);
-      }
+    }
 }
+
 @media screen and (max-width:690px) {
-    .header-filter{
+    .header-filter {
         height: 38px;
     }
+
     .blocks1-img {
         left: 44%;
     }
 }
+
 @media screen and (max-width:625px) {
     .blocks1-img {
         left: 43.5%;
     }
 }
-@media screen and (max-width: 560px){
-.blocks1-img {
-    left: 43%;
-}}
-@media screen and (max-width: 520px){
-.blocks1-img {
-    left: 42.5%;
-}}
-@media screen and (max-width: 480px){
+
+@media screen and (max-width: 560px) {
+    .blocks1-img {
+        left: 43%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .blocks1-img {
+        left: 42.5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .blocks1-img {
         left: 42%;
-    }}
-    @media screen and (max-width: 450px){
-        .blocks1-img {
-            left: 41%;
-        }}
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .blocks1-img {
+        left: 41%;
+    }
+}
+
 @media screen and (max-width:425px) {
-    .logo{
+    .logo {
         display: none;
     }
-    .header-filter{
+
+    .header-filter {
         height: 45px;
     }
-    .header-input{
+
+    .header-input {
         margin-left: 0;
     }
+
     .blocks1 {
         width: 103px;
     }
+
     .blocks1-img {
         left: 40.5%;
     }
 }
-@media screen and (max-width: 390px){
+
+@media screen and (max-width: 390px) {
     .blocks1-img {
         left: 40%;
-    }}
-    @media screen and (max-width: 350px){
-        .blocks1-img {
-            left: 38%;
-        }}
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .blocks1-img {
+        left: 38%;
+    }
+}
+
 @media screen and (max-width:320px) {
     .blocks1 {
         width: 107px;
     }
 }
-.blocks1-img{
+
+.blocks1-img {
     transition: all 0.5s ease;
     animation: rotate 1s linear infinite;
-  }
-  
-  @keyframes rotate {
-    0% {
-      top: -13px;
-      }
-      50%{
-        top:-24px
+}
 
-      }
-      100% {
+@keyframes rotate {
+    0% {
         top: -13px;
-        }
-  }
+    }
+
+    50% {
+        top: -24px
+    }
+
+    100% {
+        top: -13px;
+    }
+}
